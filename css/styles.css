@@ -1,0 +1,98 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Montserrat-bold',sans-serif;
+}
+.container-fluid{
+   padding: 7% 15%;
+}
+.container-tables{
+   padding: 7% 10%;
+}
+.result-tables{
+   padding: 0% 10% 7% 10%;
+}
+.coloured-section{
+    background-color: #610094;
+    color: white;
+}
+.white-section{
+    background-color: white;
+    color: #150050;
+}
+.purple-section{
+    /* background-color: #3F0071; */
+    color: black;
+}
+.btn-colour{
+    background-color: #150050;
+    color: white;
+}
+.btn-colour:hover{
+    background-color: #3F0071;
+    color: white;
+}
+.big-heading {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* nav bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+}
+/* title image */
+.title-image {
+    margin:20px auto;
+    width: 80%;
+    /* right: 30%; */
+}
+/* top section */
+#top-section{
+    text-align: left;
+}
+
+#top-section .container-fluid{
+    padding: 3% 15% 7%;
+}
+ /* table section */
+ .table{
+    text-align: left;
+ }
+.copyRight{
+    text-align: center;
+    color: #610094;
+}
+/* footer section */
+.footer-icon{
+    color: white;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+#infoCollection-section, #firstSemester-section, #secondSemester-section, #normalGPA-section, #normalCGPA-section{
+    display: none;
+}
+
+#result-section7, #result-section8,#result-section9, #result-section10,#result-section11, #result-section12{
+    display: none;
+}
