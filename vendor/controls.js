@@ -7,10 +7,13 @@ $canProcess.addEventListener("click", cancelAll);
 function cancelAll() {
   document.getElementById("options-section").style.display = "inline-block";
   document.getElementById("topBar").style.display = "inline-block";
+  
   document.getElementById("firstSemester-section").style.display = "none";
   document.getElementById("secondSemester-section").style.display = "none";
   document.getElementById("normalGPA-section").style.display = "none";
   document.getElementById("normalCGPA-section").style.display = "none";
+
+  //controls for removing  every TABLE on a pAGE
   document.getElementById("result-section7").style.display = "none";
   document.getElementById("result-section8").style.display = "none"; 
   document.getElementById("result-section9").style.display = "none"; 

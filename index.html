@@ -58,17 +58,17 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                         <li class="nav-item ">
-                            <a class="nav-link" href="#options-section">Calculate your gp</a>
+                            <a class="nav-link" href="#options-section">Get Started</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#footer">Contact us</a>
                         </li>
                     </div> 
                 </nav>
-
+            
                 <div class="row menu-section" id="topBar">
                     <div class="col-lg-6">
-                        <h1 class="big-heading">Calculate your gpa, cgpa and also download the overall result.</h1>
+                        <h1 class="big-heading">Calculate your Gpa, Cgpa and also download the result.</h1>
                         <a type="button" class="btn btn-outline-light btn-lg download-button" href="#options-section">Start Now ! <i class="fas fa-play"></i></a>
                     </div>
 
@@ -125,6 +125,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h1 class="card-title">First Semester Result</h1>
+
                             <div class="row g-3" id="col-sec">
                     
                                 <div class="col-12">
@@ -163,7 +164,7 @@
                         <div class="card-body">
                             <h1>Second Semester Result</h1>
 
-                            <div class="row g-3" id="col-sec2">
+                            <div class="row g-3" id="col-sec22">
 
                                 <div class="col-12">
                                     <h3>Fill the following information below</h3>
@@ -189,6 +190,7 @@
                                     <a type="button" class="btn btn-danger btn-lg" id="closeProcess-ss">Cancel</i></a>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 
@@ -202,7 +204,7 @@
                         <div class="card-body">
                             <h1>Normal GPA Result</h1>
 
-                            <div class="row g-3" id="col-sec3">
+                            <div class="row g-3" id="col-sec33">
                                 <div class="col-12">
                                     <h2>Fill the following information below.</h2>
                                     <p>Please note that none of the information entered on this website is saved at all.</p>
@@ -239,7 +241,7 @@
                         <div class="card-body">
                         <h1>Normal CGPA Result</h1>
 
-                            <div class="row g-3" id="col-sec4">
+                            <div class="row g-3" id="col-sec44">
                                 <div class="col-12">
                                     <h2>Fill the following information below.</h2>
                                     <p>Please note that none of the information entered on this website is saved at all.</p>
@@ -260,6 +262,16 @@
                 <div class="result-tables">
                     <div class="card">
                         <div class="card-body white-section">
+
+                            <div class="row g-3" class="col-md-12 col-sm-8" id="insturctionbox1">
+                                <h5>Please fill your details in the table accordingly how you want your information to be displayed.</h5>
+                                <p>Double click to input your information</p>
+                            </div>
+
+                            <!-- <div  class="row g-3" class="col-md-12 col-sm-8" id="namechanger">
+                                <h4> <span id="firstNameMover">Jane</span> <span id="lastNmaemover">Doe</span> </h4> 
+                            </div> -->
+
                             <div class="row g-3" class="col-md-12 col-sm-8">
                                 <table class="table table-md table-hover table-bordered border-primary">
                                     <thead>
@@ -313,13 +325,26 @@
                                             <td><div contenteditable="true">5</div></td>
                                             <td><div contenteditable="true"> A</div></td>
                                         </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                               <!-- <p >your Gp =</p> -->
+                                            </td>
+                                            <td colspan="2" >
+                                                <h6 class="resultText">
+                                                    Your Gp = <span id="endresult1">5.00</span> 
+                                                </h6>
+                                            </td>
+                                        </tr>
                                         <tfoot>
                                             <td colspan="4" class="copyRight">
-                                                GP CALCULATOR BY Achieve © 2021
+                                               <h5>GP CALCULATOR BY Achieve © 2021</h5>
                                             </td>
                                         </tfoot>
                                     </tbody>
                                 </table>
+                            </div>
+                            <div class="col-12">
+                                <a type="button" class="btn btn-colour btn-lg" onclick="$pushingResults()" id="finalbuttonREMOVER1">Submit</i></a>
                             </div>
                         </div>
                     </div>
@@ -331,6 +356,104 @@
                 <div class="result-tables">
                     <div class="card">
                         <div class="card-body white-section">
+                            <div class="row g-3" class="col-md-12 col-sm-8" id="insturctionbox2">
+                                <h5>Please fill your details in the table accordingly how you want your information to be displayed.</h5>
+                                <p>Double click to input your information</p>
+                            </div>
+                            <div class="row g-3" class="col-md-12 col-sm-8">
+                                <table class="table table-md table-hover table-bordered border-primary">
+                                    <thead>
+                                        <tr>
+                                        <th scope="col">COURSE CODE</th>
+                                        <th scope="col">COURSE TITLE</th>
+                                        <th scope="col">COURSE UNIT</th>
+                                        <th scope="col">GRADE</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 445</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 945</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>                                        <tr>
+                                            <td colspan="2">
+                                               <!-- <p >your Gp =</p> -->
+                                            </td>
+                                            <td colspan="2" >
+                                                <h6 class="resultText">
+                                                    Your Gp = <span id="endresult1">5.00</span> 
+                                                </h6>
+                                            </td>
+                                        </tr>
+                                        <tfoot>
+                                            <td colspan="4" class="copyRight">
+                                               <h5>GP CALCULATOR BY Achieve © 2021</h5>
+                                            </td>
+                                        </tfoot>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="col-12">
+                                <a type="button" class="btn btn-colour btn-lg" onclick="$pushingResults()" id="finalbuttonREMOVER2">Submit</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- nine courses result -->
+            <div id="result-section9" class="purple-section">
+                <div class="result-tables">
+                    <div class="card">
+                        <div class="card-body white-section">
+                            <div class="row g-3" class="col-md-12 col-sm-8" id="insturctionbox6">
+                                <h5>Please fill your details in the table accordingly how you want your information to be displayed.</h5>
+                                <p>Double click to input your information</p>
+                            </div>
                             <div class="row g-3" class="col-md-12 col-sm-8">
                                 <table class="table table-md table-hover table-bordered border-primary">
                                     <thead>
@@ -390,18 +513,374 @@
                                             <td><div contenteditable="true">5</div></td>
                                             <td><div contenteditable="true"> A</div></td>
                                         </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                               <!-- <p >your Gp =</p> -->
+                                            </td>
+                                            <td colspan="2" >
+                                                <h6 class="resultText">
+                                                    Your Gp = <span id="endresult1">5.00</span> 
+                                                </h6>
+                                            </td>
+                                        </tr>
                                         <tfoot>
                                             <td colspan="4" class="copyRight">
-                                                GP CALCULATOR BY Achieve © 2021
+                                               <h5>GP CALCULATOR BY Achieve © 2021</h5>
                                             </td>
                                         </tfoot>
                                     </tbody>
                                 </table>
                             </div>
+                            <div class="col-12">
+                                <a type="button" class="btn btn-colour btn-lg" onclick="$pushingResults()" id="finalbuttonREMOVER3">Submit</i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- seven courses result -->
+            <div id="result-section10" class="purple-section">
+                <div class="result-tables">
+                    <div class="card">
+                        <div class="card-body white-section">
+                            <div class="row g-3" class="col-md-12 col-sm-8" id="insturctionbox3">
+                                <h5>Please fill your details in the table accordingly how you want your information to be displayed.</h5>
+                                <p>Double click to input your information</p>
+                            </div>
+                            <div class="row g-3" class="col-md-12 col-sm-8">
+                                <table class="table table-md table-hover table-bordered border-primary">
+                                    <thead>
+                                        <tr>
+                                        <th scope="col">COURSE CODE</th>
+                                        <th scope="col">COURSE TITLE</th>
+                                        <th scope="col">COURSE UNIT</th>
+                                        <th scope="col">GRADE</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 445</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 945</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                               <!-- <p >your Gp =</p> -->
+                                            </td>
+                                            <td colspan="2" >
+                                                <h6 class="resultText">
+                                                    Your Gp = <span id="endresult1">5.00</span> 
+                                                </h6>
+                                            </td>
+                                        </tr>
+                                        <tfoot>
+                                            <td colspan="4" class="copyRight">
+                                               <h5>GP CALCULATOR BY Achieve © 2021</h5>
+                                            </td>
+                                        </tfoot>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-12">
+                                <a type="button" class="btn btn-colour btn-lg" onclick="$pushingResults()" id="finalbuttonREMOVER4">Submit</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- seven courses result -->
+            <div id="result-section11" class="purple-section">
+                <div class="result-tables">
+                    <div class="card">
+                        <div class="card-body white-section">
+                            <div class="row g-3" class="col-md-12 col-sm-8" id="insturctionbox4">
+                                <h5>Please fill your details in the table accordingly how you want your information to be displayed.</h5>
+                                <p>Double click to input your information</p>
+                            </div>
+                            <div class="row g-3" class="col-md-12 col-sm-8">
+                                <table class="table table-md table-hover table-bordered border-primary">
+                                    <thead>
+                                        <tr>
+                                        <th scope="col">COURSE CODE</th>
+                                        <th scope="col">COURSE TITLE</th>
+                                        <th scope="col">COURSE UNIT</th>
+                                        <th scope="col">GRADE</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 445</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 945</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                               <!-- <p >your Gp =</p> -->
+                                            </td>
+                                            <td colspan="2" >
+                                                <h6 class="resultText">
+                                                    Your Gp = <span id="endresult1">5.00</span> 
+                                                </h6>
+                                            </td>
+                                        </tr>
+                                        <tfoot>
+                                            <td colspan="4" class="copyRight">
+                                               <h5>GP CALCULATOR BY Achieve © 2021</h5>
+                                            </td>
+                                        </tfoot>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-12">
+                                <a type="button" class="btn btn-colour btn-lg" onclick="$pushingResults()" id="finalbuttonREMOVER5">Submit</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- seven courses result -->
+            <div id="result-section12" class="purple-section">
+                <div class="result-tables">
+                    <div class="card">
+                        <div class="card-body white-section">
+                            <div class="row g-3" class="col-md-12 col-sm-8" id="insturctionbox5">
+                                <h5>Please fill your details in the table accordingly how you want your information to be displayed.</h5>
+                                <p>Double click to input your information</p>
+                            </div>
+                            <div class="row g-3" class="col-md-12 col-sm-8">
+                                <table class="table table-md table-hover table-bordered border-primary">
+                                    <thead>
+                                        <tr>
+                                        <th scope="col">COURSE CODE</th>
+                                        <th scope="col">COURSE TITLE</th>
+                                        <th scope="col">COURSE UNIT</th>
+                                        <th scope="col">GRADE</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 445</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 945</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">5</div></td>
+                                            <td><div contenteditable="true"> A</div></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                               <!-- <p >your Gp =</p> -->
+                                            </td>
+                                            <td colspan="2" >
+                                                <h6 class="resultText">
+                                                    Your Gp = <span id="endresult1">5.00</span> 
+                                                </h6>
+                                            </td>
+                                        </tr>
+                                        <tfoot>
+                                            <td colspan="4" class="copyRight">
+                                               <h5>GP CALCULATOR BY Achieve © 2021</h5>
+                                            </td>
+                                        </tfoot>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-12">
+                                <a type="button" class="btn btn-colour btn-lg" onclick="$pushingResults()" id="finalbuttonREMOVER6">Submit</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
 

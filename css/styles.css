@@ -14,6 +14,9 @@ h1, h2, h3, h4, h5{
 .result-tables{
    padding: 0% 10% 7% 10%;
 }
+.resultText{
+    text-align: right;
+}
 .coloured-section{
     background-color: #610094;
     color: white;
@@ -94,5 +97,9 @@ h1, h2, h3, h4, h5{
 }
 
 #result-section7, #result-section8,#result-section9, #result-section10,#result-section11, #result-section12{
+    display: none;
+}
+
+#namechanger{
     display: none;
 }

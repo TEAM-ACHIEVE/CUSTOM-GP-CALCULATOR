@@ -4,36 +4,32 @@
 //the calculations
 
 function numberofCousres(selectValue) {
-  document.getElementById("col-sec").style.display = "none";
-  document.getElementById("firstSemester-section").style.padding= "7% 0% 0%";
+  document.getElementById("firstSemester-section").style.padding = "0% 0% 0%";
   //document.getElementById("firstSemester-section").style.backgroundColor = "#ffff";
   tablemover(selectValue);
 }
 
 function numberofCousres2(selectValue) {
-  document.getElementById("col-sec2").style.display = "none";
-  document.getElementById("secondSemester-section").style.padding = "7% 0% 0%";
+  document.getElementById("secondSemester-section").style.padding = "0% 0% 0%";
   // document.getElementById("secondSemester-section").style.backgroundColor = "#ffff";
   tablemover(selectValue);
 }
 
 function numberofCousres3(selectValue) {
-  document.getElementById("col-sec3").style.display = "none";
-  document.getElementById("normalGPA-section").style.padding = "7% 0% 0%";
+  document.getElementById("normalGPA-section").style.padding = "0% 0% 0%";
   //document.getElementById("normalGPA-section").style.backgroundColor = "#ffff";
   tablemover(selectValue);
 }
 
 function numberofCousres4(selectValue) {
-  document.getElementById("col-sec4").style.display = "none";
-  document.getElementById("normalCGPA-section").style.padding = "7% 0% 0%";
+  document.getElementById("normalCGPA-section").style.padding = "0% 0% 0%";
   //document.getElementById("normalCGPA-section").style.backgroundColor = "#ffff";
   tablemover(selectValue);
 }
 
 /// CALCULATING THE RESULTS AND SOME CONTROLLERS
 
-function tablemover(selectValue){
+function tablemover(selectValue) {
   const $selectedOptions = selectValue.value;
   if ($selectedOptions == 7) {
     sevenCourses();
@@ -50,32 +46,47 @@ function tablemover(selectValue){
   } else alert("please select a vaild option");
 }
 
-function sevenCourses(){
+//DISPLAYING SELECTED TABLE OPTIONS
+
+function sevenCourses() {
   document.getElementById("result-section7").style.display = "block";
   document.getElementById("result-section7").style.backgroundColor = "#ffff";
+  subsectionRemover();
 }
 
-function eightCourses(){
+function eightCourses() {
   document.getElementById("result-section8").style.display = "block";
   document.getElementById("result-section8").style.backgroundColor = "#ffff";
+  subsectionRemover();
 }
 
-function nineCourses(){
+function nineCourses() {
   document.getElementById("result-section9").style.display = "block";
-  document.getElementById("result-section9").style.display = "block";
+  document.getElementById("result-section9").style.backgroundColor = "#ffff";
+  subsectionRemover();
 }
 
-function tenCourses(){
+function tenCourses() {
   document.getElementById("result-section10").style.display = "block";
   document.getElementById("result-section10").style.backgroundColor = "#ffff";
+  subsectionRemover();
 }
 
-function elevenCourses(){
-  document.getElementById("result-section11").style.display = "block";  
+function elevenCourses() {
+  document.getElementById("result-section11").style.display = "block";
   document.getElementById("result-section11").style.backgroundColor = "#ffff";
+  subsectionRemover();
 }
 
-function twelvecourses(){
-  document.getElementById("result-section12").style.display = "block"; 
+function twelvecourses() {
+  document.getElementById("result-section12").style.display = "block";
   document.getElementById("result-section12").style.backgroundColor = "#ffff";
+  subsectionRemover();
+}
+
+function subsectionRemover(){
+  document.getElementById("col-sec").style.display = "none";
+  document.getElementById("col-sec22").style.display = "none";
+  document.getElementById("col-sec33").style.display = "none";
+  document.getElementById("col-sec44").style.display = "none";
 }
