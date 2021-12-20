@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5{
    padding: 7% 10%;
 }
 .result-tables{
-   padding: 0% 10% 7% 10%;
+   padding: 0% 7% 7% 7%;
 }
 .resultText{
     text-align: right;
@@ -102,4 +102,16 @@ h1, h2, h3, h4, h5{
 
 #namechanger{
     display: none;
+}
+
+/* MOBLIE BREAK POINT */
+
+@media (max-width: 450px){
+    #title{
+        text-align: center;
+    }
+
+    .result-tables{
+        padding: 0%;
+    }
 }

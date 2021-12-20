@@ -1,34 +1,15 @@
-const $userChoice = document.getElementById("inlineFormSelectPref");
-const $firstName = document.getElementById("firstName");
-const $lastName = document.getElementById("lastName");
-// const calcDescription = `${$lastName} ${$fisrtName}`;
+// const $userChoice = document.getElementById("inlineFormSelectPref");
+let $firstName = document.getElementById("firstName");
+let $lastName = document.getElementById("lastName");
 
-const $firstNameMover = document.getElementById("firstNameMover");
-const $lastNmaemover = document.getElementById("lastNmaemover");
+
 // option section
 // const $activeProcess = document.getElementById("activeProcess");
 // $activeProcess.addEventListener("click", optionActive);
 
-// displaying the input names
-function theNamerRep(){
-    document.getElementById("namechanger").style.display = "block";
-
-    // document.getElementById("firstNameMover").textContent= $firstName;
-    // document.getElementById("lastNmaemover").textContent = $lastName;
-    //$firstNameMover.textContent = calcDescription;
-    // $lastNmaemover.textContent = $lastName;
-}   
-
 function optionActive() {
   document.getElementById("options-section").style.display = "none";
-
-    if ($fisrtName.value == 0 || $lastName.value == 0){
-      alert("PLEASE ENTER A VAILD INPUT");
-    }
-    else{
-      $OptionsSelector();
-    }
-    
+  $OptionsSelector();
 }
 
 function firstSemester() { 
@@ -68,9 +49,110 @@ function $OptionsSelector(selectValue) {
      normalGPA();
    } 
    else if (selectedOption == 4) {
-     normalGPA();
+     normalCGPA();
    } 
    else {
      
    }
+}
+
+// page inputs
+
+//name inputs
+function $firstName1() {
+  return $firstName.value;
+}
+
+function $lastName1() {
+  return $lastName.value;
+}
+//7 courses 
+let $unitload1 = document.getElementById("unitload1");
+let $unitload2 = document.getElementById("unitload2");
+let $unitload3 = document.getElementById("unitload3");
+let $unitload4 = document.getElementById("unitload4");
+let $unitload5 = document.getElementById("unitload5");
+let $unitload6 = document.getElementById("unitload6");
+let $unitload7 = document.getElementById("unitload7");
+
+//funtions for number convertions
+function unit1(){
+  return parseInt($unitload1.value);
+}
+function unit2(){
+  return parseInt($unitload2.value);
+}
+function unit3(){
+  return  parseInt($unitload3.value);
+}
+function unit4() {
+  return parseInt($unitload4.value);
+}
+function unit5() {
+  return parseInt($unitload5.value);
+}
+function unit6() {
+  return parseInt($unitload6.value);
+}
+function unit7() {
+  return parseInt($unitload7.value);
+}
+
+
+//grade tables
+// const $selectedGrade;
+let grading1 = document.getElementById("courseGrade1");
+let grading2 = document.getElementById("courseGrade2");
+let grading3 = document.getElementById("courseGrade3");
+let grading4 = document.getElementById("courseGrade4");
+let grading5 = document.getElementById("courseGrade5");
+let grading6 = document.getElementById("courseGrade6");
+let grading7 = document.getElementById("courseGrade7");
+
+//funtion for string convertion
+function course1() {
+  return grading1.value
+}
+function course2() {
+  return grading2.value
+}
+function course3() {
+  return grading3.value
+}
+function course4() {
+  return grading4.value
+}
+function course5() {
+  return grading5.value
+}
+function course6() {
+  return grading6.value
+}
+function course7() {
+  return grading7.value
+}
+
+//gp result displayer
+const $gpa = document.getElementById("gpaprint");
+
+let $firstNameMover = document.getElementById("firstNameMover");
+let $lastNamemover = document.getElementById("lastNamemover");
+
+//grade value assigner
+function $course(grade) {
+
+  if (grade == "a" || grade == "A") {
+    return 5;
+  } else if (grade == "b" || grade == "B") {
+    return 4;
+  } else if (grade == "c" || grade == "C") {
+    return 3;
+  } else if (grade == "d" || grade == "D") {
+    return 2;
+  } else if (grade == "e" || grade == "E") {
+    return 1;
+  } else if (grade == "f" || grade == "F") {
+    return 0;
+  }
+
 }

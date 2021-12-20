@@ -36,10 +36,10 @@
        
 
         <!--js files-->
-        <script src="vendor/calculations.js" defer></script>
-        <script src="vendor/results.js" defer></script>
         <script src="vendor/app.js" defer></script>
+        <script src="vendor/calculations.js" defer></script>
         <script src="vendor/controls.js" defer></script>
+        <script src="vendor/results.js" defer></script>
 
         <!--Website title--> 
         <title>GPcalc</title>
@@ -93,15 +93,15 @@
                                     <input type="text" class="form-control" placeholder="First name" aria-label ="First name" id="firstName">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="lastNmae">
+                                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="lastName">
                                 </div>
 
                                 <div class="col-12">
                                     <label  class="form-control" for="inlineFormSelectPref">What do you want to calculate ?</label>
                                     <select class="form-select" id="inlineFormSelectPref" onchange="$OptionsSelector(this)">
                                         <option selected>Choose...</option>
-                                        <option value="1">First semester</option>
-                                        <option value="2">Second semester</option>
+                                        <!-- <option value="1">First semester</option>
+                                        <option value="2">Second semester</option> -->
                                         <option value="3">Normal GPA</option>
                                         <option value="4">Normal CGPA</option>
                                     </select>
@@ -268,11 +268,12 @@
                                 <p>Double click to input your information</p>
                             </div>
 
-                            <!-- <div  class="row g-3" class="col-md-12 col-sm-8" id="namechanger">
-                                <h4> <span id="firstNameMover">Jane</span> <span id="lastNmaemover">Doe</span> </h4> 
-                            </div> -->
+                            <div  class="row g-3" class="col-md-12 col-sm-8" id="namechanger">
+                                <h4> <span id="firstNameMover">Jane</span> <span id="lastNamemover">Doe</span> </h4> 
+                                <h4><span></span></h4>
+                            </div>
 
-                            <div class="row g-3" class="col-md-12 col-sm-8">
+                            <div class="row g-3" class="col-md-12 col-sm-12">
                                 <table class="table table-md table-hover table-bordered border-primary">
                                     <thead>
                                         <tr>
@@ -286,55 +287,63 @@
                                         <tr>
                                             <td><div contenteditable="true">cve 445</div></td>
                                             <td><div contenteditable="true">RAW MATERIALS</div></td>
-                                            <td><div contenteditable="true">5</div></td>
-                                            <td><div contenteditable="true"> A</div></td>
+                                            <td><input type="text" id="unitload1" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade1" maxlength="4" size="1"/></td>
                                         </tr>
+
                                         <tr>
                                             <td><div contenteditable="true">cve 945</div></td>
                                             <td><div contenteditable="true">RAW MATERIALS</div></td>
-                                            <td><div contenteditable="true">5</div></td>
-                                            <td><div contenteditable="true"> A</div></td>
+                                            <td><input type="text" id="unitload2" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade2" maxlength="4" size="1"/></td>
                                         </tr>
+
                                         <tr>
                                             <td><div contenteditable="true">cve 845</div></td>
                                             <td><div contenteditable="true">RAW MATERIALS</div></td>
-                                            <td><div contenteditable="true">5</div></td>
-                                            <td><div contenteditable="true"> A</div></td>
+                                            <td><input type="text" id="unitload3" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade3" maxlength="4" size="1"/></td>
                                         </tr>
+                                        
                                         <tr>
                                             <td><div contenteditable="true">cve 845</div></td>
                                             <td><div contenteditable="true">RAW MATERIALS</div></td>
-                                            <td><div contenteditable="true">5</div></td>
-                                            <td><div contenteditable="true"> A</div></td>
+                                            <td><input type="text" id="unitload4" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade4" maxlength="4" size="1"/></td>
                                         </tr>
+
                                         <tr>
                                             <td><div contenteditable="true">cve 845</div></td>
                                             <td><div contenteditable="true">RAW MATERIALS</div></td>
-                                            <td><div contenteditable="true">5</div></td>
-                                            <td><div contenteditable="true"> A</div></td>
+                                            <td><input type="text" id="unitload5" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade5" maxlength="4" size="1"/></td>
                                         </tr>
+
                                         <tr>
                                             <td><div contenteditable="true">cve 845</div></td>
                                             <td><div contenteditable="true">RAW MATERIALS</div></td>
-                                            <td><div contenteditable="true">5</div></td>
-                                            <td><div contenteditable="true"> A</div></td>
+                                            <td><input type="text" id="unitload6" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade6" maxlength="4" size="1"/></td>
                                         </tr>
+
                                         <tr>
                                             <td><div contenteditable="true">cve 845</div></td>
                                             <td><div contenteditable="true">RAW MATERIALS</div></td>
-                                            <td><div contenteditable="true">5</div></td>
-                                            <td><div contenteditable="true"> A</div></td>
+                                            <td><input type="text" id="unitload7" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade7" maxlength="4" size="1"/></td>
                                         </tr>
+
                                         <tr>
                                             <td colspan="2">
                                                <!-- <p >your Gp =</p> -->
                                             </td>
                                             <td colspan="2" >
-                                                <h6 class="resultText">
+                                                <h6 class="resultText" id="gpaprint">
                                                     Your Gp = <span id="endresult1">5.00</span> 
                                                 </h6>
                                             </td>
                                         </tr>
+                                        
                                         <tfoot>
                                             <td colspan="4" class="copyRight">
                                                <h5>GP CALCULATOR BY Achieve © 2021</h5>
@@ -344,7 +353,7 @@
                                 </table>
                             </div>
                             <div class="col-12">
-                                <a type="button" class="btn btn-colour btn-lg" onclick="$pushingResults()" id="finalbuttonREMOVER1">Submit</i></a>
+                                <a type="button" class="btn btn-colour btn-lg" onclick="$sevenCourses()" id="finalbuttonREMOVER1">Submit</i></a>
                             </div>
                         </div>
                     </div>
