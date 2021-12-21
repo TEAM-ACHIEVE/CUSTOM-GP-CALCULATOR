@@ -48,14 +48,12 @@ function tablemover(selectValue) {
       break;
 
     case 10:
-      document.getElementById("the10th").style.display = "none";
       document.getElementById("the11th").style.display = "none";
       document.getElementById("the12th").style.display = "none";
       sevenCourses();
       break;
 
     case 11:
-      document.getElementById("the11th").style.display = "none";
       document.getElementById("the12th").style.display = "none";
       sevenCourses();
       break;

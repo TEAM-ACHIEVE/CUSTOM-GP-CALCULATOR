@@ -179,8 +179,8 @@ function $sevenCourses() {
   }
 
   //11 COURSES
-  else if (table1($selectedOptions) == 11) {
-    totalUnitload9 =
+  else if ( table1($selectedOptions) == 11) {
+    let totalUnitload12 =
       unit1() +
       unit2() +
       unit3() +
@@ -191,9 +191,10 @@ function $sevenCourses() {
       unit8() +
       unit9() +
       unit10() +
-      unit11();
+      unit11()//+
+      //unit12();
 
-    calfactor2 =
+    let calfactor5 =
       $course(course1()) * unit1() +
       $course(course2()) * unit2() +
       $course(course3()) * unit3() +
@@ -204,16 +205,16 @@ function $sevenCourses() {
       $course(course8()) * unit8() +
       $course(course9()) * unit9() +
       $course(course10()) * unit10() +
-      $course(course11()) * unit11();
+      $course(course11()) * unit11() //+
+      //$course(course12()) * unit12();
 
-    let gpa11 = calfactor2 / totalUnitload9;
+    gpa = calfactor5 / totalUnitload12;
 
     //rounding the gpa calculated value to 2 decimal points
-    let rounded2 = Math.round((gpa11 + Number.EPSILON) * 100) / 100;
+    rounded = Math.round((gpa + Number.EPSILON) * 100) / 100;
 
-    $gpa.textContent = "your gp is = " + rounded2;
-
-    if (isNaN(totalUnitload7)) {
+    $gpa.textContent = "your gp is = " + rounded;
+    if (isNaN(totalUnitload12)) {
       console.log("is not a Num");
     } else {
       console.log("A big number");
@@ -222,8 +223,8 @@ function $sevenCourses() {
     console.log(
       unit3(),
       unit2(),
-      calfactor2,
-      totalUnitload9,
+      calfactor5,
+      totalUnitload12,
       course1(),
       unit11()
     );
