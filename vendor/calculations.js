@@ -5,45 +5,68 @@
 
 function numberofCousres(selectValue) {
   document.getElementById("firstSemester-section").style.padding = "0% 0% 0%";
-  //document.getElementById("firstSemester-section").style.backgroundColor = "#ffff";
   tablemover(selectValue);
 }
 
-function numberofCousres2(selectValue) {
-  document.getElementById("secondSemester-section").style.padding = "0% 0% 0%";
-  // document.getElementById("secondSemester-section").style.backgroundColor = "#ffff";
-  tablemover(selectValue);
+//helps me to convert strings from the number of courses to actural values
+function table1(select2) {
+  return parseInt(select2);
 }
 
-function numberofCousres3(selectValue) {
-  document.getElementById("normalGPA-section").style.padding = "0% 0% 0%";
-  //document.getElementById("normalGPA-section").style.backgroundColor = "#ffff";
-  tablemover(selectValue);
-}
-
-function numberofCousres4(selectValue) {
-  document.getElementById("normalCGPA-section").style.padding = "0% 0% 0%";
-  //document.getElementById("normalCGPA-section").style.backgroundColor = "#ffff";
-  tablemover(selectValue);
-}
+let $selectedOptions;
 
 /// CALCULATING THE RESULTS AND SOME CONTROLLERS
-
 function tablemover(selectValue) {
-  const $selectedOptions = selectValue.value;
-  if ($selectedOptions == 7) {
-    sevenCourses();
-  } else if ($selectedOptions == 8) {
-    eightCourses();
-  } else if ($selectedOptions == 9) {
-    nineCourses();
-  } else if ($selectedOptions == 10) {
-    tenCourses();
-  } else if ($selectedOptions == 11) {
-    elevenCourses();
-  } else if ($selectedOptions == 12) {
-    twelvecourses();
-  } else alert("please select a vaild option");
+  
+  $selectedOptions = selectValue.value;
+
+  switch (table1($selectedOptions)) {
+    case 7:
+      document.getElementById("the8th").style.display = "none";
+      document.getElementById("the9th").style.display = "none";
+      document.getElementById("the10th").style.display = "none";
+      document.getElementById("the11th").style.display = "none";
+      document.getElementById("the12th").style.display = "none";
+
+      sevenCourses();
+
+      break;
+
+    case 8:
+       document.getElementById("the9th").style.display = "none";
+       document.getElementById("the10th").style.display = "none";
+       document.getElementById("the11th").style.display = "none";
+       document.getElementById("the12th").style.display = "none";
+      sevenCourses();
+      break;
+
+    case 9:
+      document.getElementById("the10th").style.display = "none";
+      document.getElementById("the11th").style.display = "none";
+      document.getElementById("the12th").style.display = "none";
+      sevenCourses();
+      break;
+
+    case 10:
+      document.getElementById("the10th").style.display = "none";
+      document.getElementById("the11th").style.display = "none";
+      document.getElementById("the12th").style.display = "none";
+      sevenCourses();
+      break;
+
+    case 11:
+      document.getElementById("the11th").style.display = "none";
+      document.getElementById("the12th").style.display = "none";
+      sevenCourses();
+      break;
+
+    case 12:
+      sevenCourses();
+      break;
+
+    default:
+      break;
+  }
 }
 
 //DISPLAYING SELECTED TABLE OPTIONS
@@ -51,36 +74,6 @@ function tablemover(selectValue) {
 function sevenCourses() {
   document.getElementById("result-section7").style.display = "block";
   document.getElementById("result-section7").style.backgroundColor = "#ffff";
-  subsectionRemover();
-}
-
-function eightCourses() {
-  document.getElementById("result-section8").style.display = "block";
-  document.getElementById("result-section8").style.backgroundColor = "#ffff";
-  subsectionRemover();
-}
-
-function nineCourses() {
-  document.getElementById("result-section9").style.display = "block";
-  document.getElementById("result-section9").style.backgroundColor = "#ffff";
-  subsectionRemover();
-}
-
-function tenCourses() {
-  document.getElementById("result-section10").style.display = "block";
-  document.getElementById("result-section10").style.backgroundColor = "#ffff";
-  subsectionRemover();
-}
-
-function elevenCourses() {
-  document.getElementById("result-section11").style.display = "block";
-  document.getElementById("result-section11").style.backgroundColor = "#ffff";
-  subsectionRemover();
-}
-
-function twelvecourses() {
-  document.getElementById("result-section12").style.display = "block";
-  document.getElementById("result-section12").style.backgroundColor = "#ffff";
   subsectionRemover();
 }
 

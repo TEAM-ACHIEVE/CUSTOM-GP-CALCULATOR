@@ -15,11 +15,6 @@ function cancelAll() {
 
   //controls for removing  every TABLE on a pAGE
   document.getElementById("result-section7").style.display = "none";
-  document.getElementById("result-section8").style.display = "none"; 
-  document.getElementById("result-section9").style.display = "none"; 
-  document.getElementById("result-section10").style.display = "none";
-  document.getElementById("result-section11").style.display = "none";
-  document.getElementById("result-section12").style.display = "none"; 
 }
 
 // // first semester
@@ -37,11 +32,6 @@ function cancelAllFS(params) {
   document.getElementById("normalGPA-section").style.display = "none";
   document.getElementById("normalCGPA-section").style.display = "none";
   document.getElementById("result-section7").style.display = "none";
-  document.getElementById("result-section8").style.display = "none";
-  document.getElementById("result-section9").style.display = "none";
-  document.getElementById("result-section10").style.display = "none";
-  document.getElementById("result-section11").style.display = "none";
-  document.getElementById("result-section12").style.display = "none"; 
 }
 
 // second semester
@@ -58,13 +48,7 @@ function $cancelAllSS() {
   document.getElementById("secondSemester-section").style.display = "none";
   document.getElementById("normalGPA-section").style.display = "none";
   document.getElementById("normalCGPA-section").style.display = "none";
-
   document.getElementById("result-section7").style.display = "none";
-  document.getElementById("result-section8").style.display = "none";
-  document.getElementById("result-section9").style.display = "none";
-  document.getElementById("result-section10").style.display = "none";
-  document.getElementById("result-section11").style.display = "none";
-  document.getElementById("result-section12").style.display = "none"; 
 }
 
 //normal gpa 
@@ -82,10 +66,5 @@ function $cancelGpa() {
   document.getElementById("normalGPA-section").style.display = "none";
   document.getElementById("normalCGPA-section").style.display = "none";
   document.getElementById("result-section7").style.display = "none";
-  document.getElementById("result-section8").style.display = "none";
-  document.getElementById("result-section9").style.display = "none";
-  document.getElementById("result-section10").style.display = "none";
-  document.getElementById("result-section11").style.display = "none";
-  document.getElementById("result-section12").style.display = "none"; 
 }
 

@@ -74,6 +74,11 @@ let $unitload4 = document.getElementById("unitload4");
 let $unitload5 = document.getElementById("unitload5");
 let $unitload6 = document.getElementById("unitload6");
 let $unitload7 = document.getElementById("unitload7");
+let $unitload8 = document.getElementById("unitload8");
+let $unitload9 = document.getElementById("unitload9");
+let $unitload10 = document.getElementById("unitload10");
+let $unitload11 = document.getElementById("unitload11");
+let $unitload12 = document.getElementById("unitload12");
 
 //funtions for number convertions
 function unit1(){
@@ -97,6 +102,21 @@ function unit6() {
 function unit7() {
   return parseInt($unitload7.value);
 }
+function unit8() {
+  return parseInt($unitload8.value);
+}
+function unit9() {
+  return parseInt($unitload9.value);
+}
+function unit10() {
+  return parseInt($unitload10.value);
+}
+function unit11() {
+  return parseInt($unitload11.value);
+}
+function unit12() {
+  return parseInt($unitload12.value);
+}
 
 
 //grade tables
@@ -108,6 +128,11 @@ let grading4 = document.getElementById("courseGrade4");
 let grading5 = document.getElementById("courseGrade5");
 let grading6 = document.getElementById("courseGrade6");
 let grading7 = document.getElementById("courseGrade7");
+let grading8 = document.getElementById("courseGrade8");
+let grading9 = document.getElementById("courseGrade9");
+let grading10 = document.getElementById("courseGrade10");
+let grading11 = document.getElementById("courseGrade11");
+let grading12 = document.getElementById("courseGrade12");
 
 //funtion for string convertion
 function course1() {
@@ -131,10 +156,26 @@ function course6() {
 function course7() {
   return grading7.value
 }
+function course8() {
+  return grading8.value;
+}
+function course9() {
+  return grading9.value;
+}
+function course10() {
+  return grading10.value;
+}
+function course11() {
+  return grading11.value;
+}
+function course12() {
+  return grading12.value;
+}
 
 //gp result displayer
 const $gpa = document.getElementById("gpaprint");
 
+// REPLACING THE NAMES
 let $firstNameMover = document.getElementById("firstNameMover");
 let $lastNamemover = document.getElementById("lastNamemover");
 
