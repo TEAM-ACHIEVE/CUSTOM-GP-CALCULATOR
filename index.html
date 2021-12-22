@@ -48,7 +48,7 @@
     <body>
         <div id="top-section" class="coloured-section">
             <div class="container-fluid">
-                 <nav class="navbar navbar-expand-lg navbar-dark">
+                <nav class="navbar navbar-expand-lg navbar-dark">
                     <a class="navbar-brand" href="#">Achieve</a>
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                         <li class="nav-item ">
-                            <a class="nav-link" href="#options-section">Get Started</a>
+                            <a class="nav-link" href="#information-section">Get Started</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#footer">Contact us</a>
@@ -69,17 +69,81 @@
                 <div class="row menu-section" id="topBar">
                     <div class="col-lg-6">
                         <h1 class="big-heading">Calculate your Gpa, Cgpa and also download the result.</h1>
-                        <a type="button" class="btn btn-outline-light btn-lg download-button" href="#options-section">Start Now ! <i class="fas fa-play"></i></a>
+                        <a type="button" class="btn btn-outline-light btn-lg download-button" href="#information-section">Start Now ! <i class="fas fa-play"></i></a>
                     </div>
 
                     <div class="col-lg-6">
                         <img class="title-image" src="images/undraw_calculator_re_jy39.svg" alt="iphone-mockup">
                     </div>
                 </div>
+                
         
             </div>
         </div>   
 
+        
+        <div id="information-section" class="carousel slide col-lg-12 coloured-section" data-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#information-section" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#information-section" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#information-section" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active showcase">
+        
+                    <h2 class="big-heading">HOW THIS WORKS ?</h2>
+                    <img src="images/undraw_privacy_protection_nlwy.svg" class="showcase-image" alt="">
+                    <h5>Please note all information entered on this website app is not saved in away. so you reserve the right to your information.</h5>
+                    <p>Thank you for understanding. Steps to calculating your Gpa in the next slide.</p>
+
+                </div>
+
+                <div class="carousel-item showcase">
+                    <h2 class="big-heading">STEPS</h2>
+                    <img src="images/undraw_check_boxes_re_v40f.svg" class="showcase-image" alt="">                      
+                    <ol>
+                        <li class="showcase-text">Enter your full name and select what you want to calculate.</li>
+                        <li class="showcase-text">Select the number of courses</li>
+                        <li class="showcase-text">Double click to fill the appearing table. Fill all spaces with your personal info</li>
+                        <li class="showcase-text">Click the submit to run the calculation and the print button to print result</li>
+                        <div class="row">
+                            <div class="col-6">
+                                <a type="button" class="btn btn-outline-light btn-lg download-button" href="">Click here to download a Sample <i class="fas fa-download"></i></a>
+                            </div>
+                            <div class="col-6">
+                                <a type="button" class="btn btn-outline-light btn-lg download-button" href="#options-section">Start Now <i class="fas fa-play"></i></a>
+                            </div>
+                        </div>
+                    </ol>
+                </div>
+
+                <div class="carousel-item showcase">
+                    <h2 class="big-heading">WHO BUILT THIS ?</h2>
+                    <img src="images/undraw_programming_re_kg9v.svg" class="showcase-image" alt="">          
+                    <h6>Hi Am Mmerichukwu Anosike</h6>         
+                    <p>I am a javascript developer and i built this to help my fellow students check in on their gpa,
+                        see how they doing and also keep a record all in real time. So let's connect and work together.</p>
+                    <a href="https://github.com/Roarnotes"><i class="fab fa-github footer-icon"></i></a>
+                    <a href="https://web.facebook.com/mmerichukwu.anosike?_rdc=1&_rdr"> <i class="fab fa-facebook-f footer-icon"></i></a>
+                    <a href="https://www.instagram.com/officially_mmerichukwu/"> <i class="fab fa-instagram footer-icon"></i></a>
+                    <a href="https://www.linkedin.com/in/mmerichukwu-anosike-7336941a3"> <i class="fab fa-linkedin footer-icon"></i></a>
+                    <a href="mailto:mmerichukwuanosike@gmail.com"> <i class="fas fa-envelope footer-icon"></i> </a>
+                </div>
+            
+            </div>
+
+            <a class="carousel-control-prev" href="#information-section" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#information-section" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
 
         <div id="tabledata&options">
             <div id="options-section" class="purple-section">
@@ -202,7 +266,8 @@
                 <div class="container-tables">
                     <div class="card">
                         <div class="card-body">
-                            <h1>Normal GPA Result</h1>
+                            <h1>GPA Result</h1>
+                            <a type="button" class="btn btn-dark btn-lg download-button" onclick="printPage()" id="printer">Download this result <i class="fas fa-download"></i></a>
 
                             <div class="row g-3" id="col-sec33">
                                 <div class="col-12">
@@ -239,16 +304,17 @@
                 <div class="container-tables">
                     <div class="card">
                         <div class="card-body">
-                        <h1>Normal CGPA Result</h1>
+                        <h1>CGPA Result</h1>
 
                             <div class="row g-3" id="col-sec44">
                                 <div class="col-12">
-                                    <h2>Fill the following information below.</h2>
-                                    <p>Please note that none of the information entered on this website is saved at all.</p>
+                                    <h2>THIS PAGE IS UNDER CONSTRUCTION</h2>
+                                    <!-- <h2>Fill the following information below.</h2>
+                                    <p>Please note that none of the information entered on this website is saved at all.</p> -->
                                 </div>
 
                                 <div class="col-12">
-
+                                    <img class="underconstruction" src="images/hugo-under-construction.png" alt="title-image">
                                 </div>
                             </div>  
                         </div>
@@ -398,10 +464,11 @@
         </div>
 
         <div id="footer" class="coloured-section">
-             <div class="container-fluid">
-                <a href="http://"><i class="fab fa-twitter footer-icon"></i></a>
-                <a href="http://"> <i class="fab fa-facebook-f footer-icon"></i></a>
-                <a href="http://"> <i class="fab fa-instagram footer-icon"></i></a>
+            <div class="container-fluid">
+                <a href="https://github.com/Roarnotes"><i class="fab fa-github footer-icon"></i></a>
+                <a href="https://web.facebook.com/mmerichukwu.anosike?_rdc=1&_rdr"> <i class="fab fa-facebook-f footer-icon"></i></a>
+                <a href="https://www.instagram.com/officially_mmerichukwu/"> <i class="fab fa-instagram footer-icon"></i></a>
+                <a href="https://www.linkedin.com/in/mmerichukwu-anosike-7336941a3"> <i class="fab fa-linkedin footer-icon"></i></a>
                 <a href="mailto:mmerichukwuanosike@gmail.com"> <i class="fas fa-envelope footer-icon"></i> </a>
                 <p>© Copyright 2021 Achieve</p>
             </div>

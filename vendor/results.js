@@ -5,7 +5,7 @@ function displayController() {
   subsectionRemover();
 
   instructionBOXremover();
-
+  document.getElementById("information-section").style.display = "none";
   document.getElementById("footer").style.display = "none";
 
   //printPage();
@@ -13,6 +13,7 @@ function displayController() {
 
 //enabing auto printing  by default
 function printPage() {
+  document.getElementById("printer").style.display = "none";
   window.print();
 }
 

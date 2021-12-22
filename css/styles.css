@@ -6,10 +6,29 @@ h1, h2, h3, h4, h5{
     font-family: 'Montserrat-bold',sans-serif;
 }
 .container-fluid{
-   padding: 7% 15%;
+   padding: 7% 5%;
 }
 .container-tables{
    padding: 7% 10%;
+}
+.showcaser{
+    background-color: #3F0071;
+    color: white;
+}
+.showcase{
+    padding: 0% 7% 2%;
+}
+.showcase-image{
+    margin:20px auto;
+    width: 20%;
+    padding: 0%;   
+}
+.showcase-text{
+    text-align: left;
+}
+.underconstruction{
+    width: 30%;
+    text-align: center;
 }
 .result-tables{
    padding: 0% 7% 7% 7%;
@@ -67,6 +86,7 @@ h1, h2, h3, h4, h5{
 .title-image {
     margin:20px auto;
     width: 80%;
+    padding: 0%;
     /* right: 30%; */
 }
 /* top section */
@@ -113,5 +133,35 @@ h1, h2, h3, h4, h5{
 
     .result-tables{
         padding: 0%;
+    }
+
+    .title-image {
+    margin:20px auto;
+    width: 80%;
+    /* right: 30%; */
+    }
+
+    .showcase-image{
+    margin:20px auto;
+    width: 50%;
+    padding: 0%;   
+}
+}
+
+
+@media (max-width: 700px){
+    .title-image {
+    margin:20px auto;
+    width: 60%;
+    /* right: 30%; */
+    }
+    .showcase-image{
+    margin:20px auto;
+    width: 50%;
+    padding: 0%;   
+    }
+    .underconstruction{
+    width: 80%;
+    text-align: center;
     }
 }
