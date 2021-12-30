@@ -1,6 +1,11 @@
 // SUBMIT AND CANCEL OPERATIONS
 
 //option section
+function begin(){
+  document.getElementById("options-section").style.display = "inline-block";
+  document.getElementById("footer").style.display = "block";
+  document.getElementById("information-section").style.display = "none";
+}
 const $canProcess = document.getElementById("closeProcess");
 $canProcess.addEventListener("click", cancelAll);
 
