@@ -80,7 +80,7 @@ CUSTOM MADE JS GP CALCULATOR
 
 [![Product Name Screen Shot][product-screenshot]](https://team-achieve.github.io/CUSTOM-GP-CALCULATOR/)
 
-Here is a js gpa calculator made by Team Achieve for university level students `TEAM-ACHIEVE`, `repo_name`, `twitter_handle`, `Achieve Digital Agency`, `info.achv@gmail.com`,  `GPA cALCULATOR`, `A GP CALCULATOR TO ASSIST STUDENTS`
+Here is a js gpa calculator made by Team Achieve for university level students `TEAM-ACHIEVE`, `repo_name`, `Achieve Digital Agency`, `info.achv@gmail.com`,  `GPA CALCULATOR`, `A GP CALCULATOR TO ASSIST STUDENTS`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
