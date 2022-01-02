@@ -30,7 +30,7 @@ CUSTOM MADE JS GP CALCULATOR
     <img src="images/ACHIEVE BLACK AND WHITE.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">GP CACULATOR</h3>
+<h3 align="center">GPA CACULATOR</h3>
 
   <p align="center">
     This is a gp calculator made with gpa and cgpa features, it has a 7 to 12 course range at a time.
@@ -61,15 +61,15 @@ CUSTOM MADE JS GP CALCULATOR
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <!-- <li><a href="#prerequisites">Prerequisites</a></li> -->
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <!-- <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li> -->
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
 </details>
 
@@ -78,9 +78,9 @@ CUSTOM MADE JS GP CALCULATOR
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://team-achieve.github.io/CUSTOM-GP-CALCULATOR/)
 
-Here is a js gpa calculator made by Team Achieve for university level students `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+Here is a js gpa calculator made by Team Achieve for university level students `TEAM-ACHIEVE`, `repo_name`, `twitter_handle`, `Achieve Digital Agency`, `info.achv@gmail.com`,  `GPA cALCULATOR`, `A GP CALCULATOR TO ASSIST STUDENTS`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -107,9 +107,9 @@ Here is a js gpa calculator made by Team Achieve for university level students `
 This is a very easy to use program for calculating GPA and CGPA.
 Follow these steps to get started.
  
-### Installation
+### Usage
 
-1. First thing open the web app on another tab[Visit the web App](https://team-achieve.github.io/CUSTOM-GP-CALCULATOR/).
+1. First thing open the web app on another tab [Visit the web App](https://team-achieve.github.io/CUSTOM-GP-CALCULATOR/).
 2. Click on the get started button.
 3. Please ensure to read the privicy poilcy section that you will be moved to.
 4. Slide the section to the left and click the start now
