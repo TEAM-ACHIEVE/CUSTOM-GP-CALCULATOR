@@ -186,7 +186,7 @@ function subsectionRemover2() {
 
 function $ssCourses() {
   //7 courses
-  if (table2($selectedOptions) == 7) {
+  if (table3($selectedOptions) == 7) {
     totalUnitload7 =
       unit102() +
       unit222() +
@@ -218,7 +218,7 @@ function $ssCourses() {
   }
 
   //8 courses
-  else if (table1($selectedOptions) == 8) {
+  else if (table3($selectedOptions) == 8) {
     let totalUnitload888 =
       unit102() +
       unit222() +
@@ -249,7 +249,7 @@ function $ssCourses() {
   }
 
   //9 courses
-  else if (table1($selectedOptions) == 9) {
+  else if (table3($selectedOptions) == 9) {
     let totalUnitload999 =
       unit102() +
       unit222() +
@@ -277,7 +277,7 @@ function $ssCourses() {
   }
 
   //10 courses
-  else if (table1($selectedOptions) == 10) {
+  else if (table3($selectedOptions) == 10) {
     totalUnitload999 =
       unit102() +
       unit222() +
@@ -307,7 +307,7 @@ function $ssCourses() {
   }
 
   //11 COURSES
-  else if (table1($selectedOptions) == 11) {
+  else if (table3($selectedOptions) == 11) {
     let totalUnitload1200 =
       unit102() +
       unit222() +
@@ -341,7 +341,7 @@ function $ssCourses() {
   }
 
   //12 COURSES
-  else if (table1($selectedOptions) == 12) {
+  else if (table3($selectedOptions) == 12) {
     let totalUnitload1200 =
       unit102() +
       unit222() +
