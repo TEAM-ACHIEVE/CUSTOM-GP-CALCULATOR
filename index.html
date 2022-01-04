@@ -51,6 +51,7 @@
         <script src="vendor/calculations.js" defer></script>
         <script src="vendor/controls.js" defer></script>
         <script src="vendor/results.js" defer></script>
+        <script src="vendor/Cgpa feature.js" defer></script>
 
         <!--Website title--> 
         <title>GPcalc</title>
@@ -215,7 +216,68 @@
                     </div>
                 </div>
             </div>
+            
+            <div id="normalGPA-section" class="purple-section">
+                <div class="container-tables">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1>GPA Result</h1>
+                            <a type="button" class="btn btn-dark btn-lg download-button" onclick="printPage()" id="printer">Download this result <i class="fas fa-download"></i></a>
 
+                            <div class="row g-3" id="col-sec33">
+                                <div class="col-12">
+                                    <h2>Fill the following information below.</h2>
+                                    <p>Please note that none of the information entered on this website is saved at all.</p>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <label  class="form-control" for="inlineFormSelectPref1">Select number of courses offered</label>
+                                    <select class="form-select" id="inlineFormSelectPref1"  onchange="numberofCousres(this)">
+                                        <option selected>Choose...</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                </div>
+                                <!-- <div class="col-6">
+                                <a type="button" class="btn btn-colour btn-lg" id="activeProcess3">Submit</i></a>
+                                </div> -->
+                                <div class="col-12">
+                                    <a type="button" class="btn btn-danger btn-lg" id="closeProcess-gpa">Cancel</i></a>
+                                </div>
+
+                            </div>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="normalCGPA-section" class="purple-section">
+                <div class="container-tables">
+                    <div class="card">
+                        <div class="card-body">
+                        <h1>CGPA Result</h1>
+
+                            <div class="row g-3" id="col-sec44">
+                                <div class="col-12">
+                                    <h2>THIS PAGE IS UNDER CONSTRUCTION</h2>
+                                    <!-- <h2>Fill the following information below.</h2>
+                                    <p>Please note that none of the information entered on this website is saved at all.</p> -->
+                                </div>
+
+                                <div class="col-12">
+                                    <img class="underconstruction" src="images/hugo-under-construction.png" alt="title-image">
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        
             <div id="firstSemester-section" class="purple-section">
                 <div class="container-tables">
                     <div class="card">
@@ -293,68 +355,7 @@
                     
                 </div>
             </div>
-
-            <div id="normalGPA-section" class="purple-section">
-                <div class="container-tables">
-                    <div class="card">
-                        <div class="card-body">
-                            <h1>GPA Result</h1>
-                            <a type="button" class="btn btn-dark btn-lg download-button" onclick="printPage()" id="printer">Download this result <i class="fas fa-download"></i></a>
-
-                            <div class="row g-3" id="col-sec33">
-                                <div class="col-12">
-                                    <h2>Fill the following information below.</h2>
-                                    <p>Please note that none of the information entered on this website is saved at all.</p>
-                                </div>
-                                
-                                <div class="col-12">
-                                    <label  class="form-control" for="inlineFormSelectPref1">Select number of courses offered</label>
-                                    <select class="form-select" id="inlineFormSelectPref1"  onchange="numberofCousres(this)">
-                                        <option selected>Choose...</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                        <option value="11">11</option>
-                                        <option value="12">12</option>
-                                    </select>
-                                </div>
-                                <!-- <div class="col-6">
-                                <a type="button" class="btn btn-colour btn-lg" id="activeProcess3">Submit</i></a>
-                                </div> -->
-                                <div class="col-12">
-                                    <a type="button" class="btn btn-danger btn-lg" id="closeProcess-gpa">Cancel</i></a>
-                                </div>
-
-                            </div>        
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="normalCGPA-section" class="purple-section">
-                <div class="container-tables">
-                    <div class="card">
-                        <div class="card-body">
-                        <h1>CGPA Result</h1>
-
-                            <div class="row g-3" id="col-sec44">
-                                <div class="col-12">
-                                    <h2>THIS PAGE IS UNDER CONSTRUCTION</h2>
-                                    <!-- <h2>Fill the following information below.</h2>
-                                    <p>Please note that none of the information entered on this website is saved at all.</p> -->
-                                </div>
-
-                                <div class="col-12">
-                                    <img class="underconstruction" src="images/hugo-under-construction.png" alt="title-image">
-                                </div>
-                            </div>  
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-
+      
             <!-- seven courses result -->
             <div id="result-section7" class="purple-section">
                 <div class="result-tables">
