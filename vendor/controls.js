@@ -37,6 +37,8 @@ function cancelAllFS(params) {
   document.getElementById("normalGPA-section").style.display = "none";
   document.getElementById("normalCGPA-section").style.display = "none";
   document.getElementById("result-section7").style.display = "none";
+  document.getElementById("result-sectionFS").style.display = "none";
+  document.getElementById("result-sectionSS").style.display = "none";
 }
 
 // second semester
@@ -54,6 +56,8 @@ function $cancelAllSS() {
   document.getElementById("normalGPA-section").style.display = "none";
   document.getElementById("normalCGPA-section").style.display = "none";
   document.getElementById("result-section7").style.display = "none";
+  document.getElementById("result-sectionFS").style.display = "none";
+  document.getElementById("result-sectionSS").style.display = "none";
 }
 
 //normal gpa 
@@ -71,5 +75,7 @@ function $cancelGpa() {
   document.getElementById("normalGPA-section").style.display = "none";
   document.getElementById("normalCGPA-section").style.display = "none";
   document.getElementById("result-section7").style.display = "none";
+  document.getElementById("result-sectionFS").style.display = "none";
+  document.getElementById("result-sectionSS").style.display = "none";
 }
 

@@ -68,7 +68,7 @@ function $firstName1() {
 function $lastName1() {
   return $lastName.value;
 }
-//7 courses 
+//all courses 
 let $unitload1 = document.getElementById("unitload1");
 let $unitload2 = document.getElementById("unitload2");
 let $unitload3 = document.getElementById("unitload3");

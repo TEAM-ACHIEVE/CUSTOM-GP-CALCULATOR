@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5{
     display: none;
 }
 
-#namechanger {
+#namechanger, #result-sectionFS, #result-sectionSS {
     display: none;
 }
 

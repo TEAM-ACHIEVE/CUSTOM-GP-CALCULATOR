@@ -50,8 +50,10 @@
         <script src="vendor/app.js" defer></script>
         <script src="vendor/calculations.js" defer></script>
         <script src="vendor/controls.js" defer></script>
-        <script src="vendor/results.js" defer></script>
-        <script src="vendor/Cgpa feature.js" defer></script>
+        <script src="vendor/GPAresults.js" defer></script>
+        <script src="vendor/CGPAresults.js"></script>
+        <script src="vendor/firstSEMESTER.js" defer></script>
+        <script src="vendor/secondSEMESTER.js" defer></script>
 
         <!--Website title--> 
         <title>GPcalc</title>
@@ -280,84 +282,6 @@
                 </div>
             </div>
         
-            <div id="firstSemester-section" class="purple-section">
-                <div class="container-tables">
-                    <div class="card">
-                        <div class="card-body">
-                            <h1 class="card-title">First Semester Result</h1>
-
-                            <div class="row g-3" id="col-sec">
-                    
-                                <div class="col-12">
-                                    <h2>Fill the following information below.</h2>
-                                    <p>Please note that none of the information entered on this website is saved at all.</p>
-                                </div>
-                                
-                                <div class="col-12">
-                                    <label  class="form-control" for="inlineFormSelectPref1">Select number of courses offered</label>
-                                    <select class="form-select" id="inlineFormSelectPref1" onchange="numberofCousres1(this)">
-                                        <option selected>Choose...</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                        <option value="11">11</option>
-                                        <option value="12">12</option>
-                                    </select>
-                                </div>
-                                <!-- <div class="col-6">
-                                    <a type="button" class="btn btn-colour btn-lg" id="activeProcess1">Submit</i></a>
-                                </div> -->
-                                <div class="col-12">
-                                    <a type="button" class="btn btn-danger btn-lg" id="closeProcess-fs">Cancel</i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-
-            <div id="secondSemester-section" class="purple-section">
-                <div class="container-tables">
-                    <div class="card">
-                        <div class="card-body">
-                            <h1>Second Semester Result</h1>
-
-                            <div class="row g-3" id="col-sec22">
-
-                                <div class="col-12">
-                                    <h3>Fill the following information below</h3>
-                                    <p>Please note that none of the information entered on this website is saved at all.</p>
-                                </div>
-                                
-                                <div class="col-12">
-                                    <label  class="form-control" for="inlineFormSelectPref1">Select number of courses offered</label>
-                                    <select class="form-select" id="inlineFormSelectPref1"  onchange="numberofCousres2(this)">
-                                        <option selected>Choose...</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                        <option value="11">11</option>
-                                        <option value="12">12</option>
-                                    </select>
-                                </div>
-                                <!-- <div class="col-6">
-                                    <a type="button" class="btn btn-colour btn-lg" id="activeProcess2">Submit</i></a>
-                                </div> -->
-                                <div class="col-12">
-                                    <a type="button" class="btn btn-danger btn-lg" id="closeProcess-ss">Cancel</i></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                
-                    
-                </div>
-            </div>
-      
             <!-- seven courses result -->
             <div id="result-section7" class="purple-section">
                 <div class="result-tables">
@@ -387,84 +311,84 @@
                                     <tbody>
                                         <tr>
                                             <td><div contenteditable="true">cve 445</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload1" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade1" maxlength="4" size="1"/></td>
                                         </tr>
 
                                         <tr>
                                             <td><div contenteditable="true">cve 945</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload2" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade2" maxlength="4" size="1"/></td>
                                         </tr>
 
                                         <tr>
                                             <td><div contenteditable="true">cve 845</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload3" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade3" maxlength="4" size="1"/></td>
                                         </tr>
                                         
                                         <tr>
                                             <td><div contenteditable="true">cve 845</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload4" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade4" maxlength="4" size="1"/></td>
                                         </tr>
 
                                         <tr>
                                             <td><div contenteditable="true">cve 845</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload5" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade5" maxlength="4" size="1"/></td>
                                         </tr>
 
                                         <tr>
                                             <td><div contenteditable="true">cve 845</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload6" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade6" maxlength="4" size="1"/></td>
                                         </tr>
 
                                         <tr>
                                             <td><div contenteditable="true">cve 845</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload7" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade7" maxlength="4" size="1"/></td>
                                         </tr>
 
                                         <tr id="the8th">
                                             <td><div contenteditable="true">cve 845</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload8" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade8" maxlength="4" size="1"/></td>
                                         </tr>
 
                                         <tr id="the9th">
                                             <td><div contenteditable="true">cve 845</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload9" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade9" maxlength="4" size="1"/></td>
                                         </tr>
 
                                         <tr id="the10th">
                                             <td><div contenteditable="true">cve 845</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload10" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade10" maxlength="4" size="1"/></td>
                                         </tr>
 
                                         <tr id="the11th">
                                             <td><div contenteditable="true">cve 845</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload11" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade11" maxlength="4" size="1"/></td>
                                         </tr>
 
                                         <tr id="the12th">
                                             <td><div contenteditable="true">cve 845</div></td>
-                                            <td><div contenteditable="true">RAW MATERIALS</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
                                             <td><input type="text" id="unitload12" maxlength="4" size="1"/></td>
                                             <td><input type="text" id="courseGrade12" maxlength="4" size="1"/></td>
                                         </tr>
@@ -475,7 +399,7 @@
                                             </td>
                                             <td colspan="2" >
                                                 <h6 class="resultText" id="gpaprint">
-                                                    Your Gp = <span id="endresult1">5.00</span> 
+                                                    Your GPA = <span id="endresult1">5.00</span> 
                                                 </h6>
                                             </td>
                                         </tr>
@@ -495,6 +419,361 @@
                     </div>
                 </div>
             </div>
+
+            <div id="firstSemester-section" class="purple-section">
+                <div class="container-tables">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title">First Semester</h1>
+
+                            <div class="row g-3" id="col-sec">
+                    
+                                <div class="col-12">
+                                    <h2>Fill the following information below.</h2>
+                                    <p>Please note that none of the information entered on this website is saved at all.</p>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <label  class="form-control" for="inlineFormSelectPref1">Select number of courses offered</label>
+                                    <select class="form-select" id="inlineFormSelectPref1" onchange="fsCourseschanger(this)">
+                                        <option selected>Choose...</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                </div>
+                                <!-- <div class="col-6">
+                                    <a type="button" class="btn btn-colour btn-lg" id="activeProcess1">Submit</i></a>
+                                </div> -->
+                                <div class="col-12">
+                                    <a type="button" class="btn btn-danger btn-lg" id="closeProcess-fs">Cancel</i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- first semester courses result -->
+            <div id="result-sectionFS" class="purple-section">
+                <div class="result-tables">
+                    <div class="card">
+                        <div class="card-body white-section">
+
+                            <div class="row g-3" class="col-md-12 col-sm-8" id="insturctionbox1">
+                                <h5>Please fill your details in the table accordingly how you want your information to be displayed.</h5>
+                                <p>Double click to input your information</p>
+                            </div>
+
+                            <div  class="row g-3" class="col-md-12 col-sm-8" id="namechanger">
+                                <h4> <span id="firstNameMover">Jane</span> <span id="lastNamemover">Doe</span> </h4> 
+                                <h4><span></span></h4>
+                            </div>
+
+                            <div class="row g-3" class="col-md-12 col-sm-12">
+                                <table class="table table-md table-hover table-bordered border-primary">
+                                    <thead>
+                                        <tr>
+                                        <th scope="col">COURSE CODE</th>
+                                        <th scope="col">COURSE TITLE</th>
+                                        <th scope="col">COURSE UNIT</th>
+                                        <th scope="col">GRADE</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><div contenteditable="true">cve 445</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload101" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade101" maxlength="4" size="1"/></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><div contenteditable="true">cve 945</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload22" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade22" maxlength="4" size="1"/></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload33" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade33" maxlength="4" size="1"/></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload44" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade44" maxlength="4" size="1"/></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload55" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade55" maxlength="4" size="1"/></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload66" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade66" maxlength="4" size="1"/></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload77" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade77" maxlength="4" size="1"/></td>
+                                        </tr>
+
+                                        <tr id="fsthe8th">
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload88" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade88" maxlength="4" size="1"/></td>
+                                        </tr>
+
+                                        <tr id="fsthe9th">
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload99" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade99" maxlength="4" size="1"/></td>
+                                        </tr>
+
+                                        <tr id="fsthe10th">
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload100" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade100" maxlength="4" size="1"/></td>
+                                        </tr>
+
+                                        <tr id="fsthe11th">
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload110" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade110" maxlength="4" size="1"/></td>
+                                        </tr>
+
+                                        <tr id="fsthe12th">
+                                            <td><div contenteditable="true">cve 845</div></td>
+                                            <td><div contenteditable="true">Double Click to Edit</div></td>
+                                            <td><input type="text" id="unitload120" maxlength="4" size="1"/></td>
+                                            <td><input type="text" id="courseGrade120" maxlength="4" size="1"/></td>
+                                        </tr>
+
+                                        <!-- <tr>
+                                            <td colspan="2"> -->
+                                               <!-- <p >your Gp =</p> -->
+                                            <!-- </td>
+                                            <td colspan="2" >
+                                                <h6 class="resultText" id="gpaprint">
+                                                    Your Gp = <span id="endresult1">5.00</span> 
+                                                </h6>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tfoot>
+                                            <td colspan="4" class="copyRight">
+                                               <h5>GP CALCULATOR BY Achieve © 2021</h5>
+                                            </td>
+                                        </tfoot> -->
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- <div class="col-12">
+                                <a type="button" class="btn btn-colour btn-lg" onclick="$sevenCourses()" id="finalbuttonREMOVER1">Submit</i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- second semester -->
+            <div id="secondSemester-section" class="purple-section">
+                <div class="container-tables">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1>Second Semester</h1>
+
+                            <div class="row g-3" id="col-sec22">
+
+                                <div class="col-12">
+                                    <h3>Fill the following information below</h3>
+                                    <p>Please note that none of the information entered on this website is saved at all.</p>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <label  class="form-control" for="inlineFormSelectPref1">Select number of courses offered</label>
+                                    <select class="form-select" id="inlineFormSelectPref1"  onchange="ssCourseschanger(this)">
+                                        <option selected>Choose...</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                </div>
+                                <!-- <div class="col-6">
+                                    <a type="button" class="btn btn-colour btn-lg" id="activeProcess2">Submit</i></a>
+                                </div> -->
+                                <div class="col-12">
+                                    <a type="button" class="btn btn-danger btn-lg" id="closeProcess-ss">Cancel</i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- second semester courses result -->
+                    <div id="result-sectionSS" class="purple-section">
+                        <div class="result-tables">
+                            <div class="card">
+                                <div class="card-body white-section">
+
+                                    <div class="row g-3" class="col-md-12 col-sm-8" id="insturctionbox1">
+                                        <h5>Please fill your details in the table accordingly how you want your information to be displayed.</h5>
+                                        <p>Double click to input your information</p>
+                                    </div>
+
+                                    <!-- <div  class="row g-3" class="col-md-12 col-sm-8" id="namechanger">
+                                        <h4> <span id="firstNameMover">Jane</span> <span id="lastNamemover">Doe</span> </h4> 
+                                        <h4><span></span></h4>
+                                    </div> -->
+
+                                    <div class="row g-3" class="col-md-12 col-sm-12">
+                                        <table class="table table-md table-hover table-bordered border-primary">
+                                            <thead>
+                                                <tr>
+                                                <th scope="col">COURSE CODE</th>
+                                                <th scope="col">COURSE TITLE</th>
+                                                <th scope="col">COURSE UNIT</th>
+                                                <th scope="col">GRADE</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><div contenteditable="true">cve 445</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload102" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade111" maxlength="4" size="1"/></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><div contenteditable="true">cve 945</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload222" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade222" maxlength="4" size="1"/></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><div contenteditable="true">cve 845</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload333" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade333" maxlength="4" size="1"/></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td><div contenteditable="true">cve 845</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload444" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade444" maxlength="4" size="1"/></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><div contenteditable="true">cve 845</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload555" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade555" maxlength="4" size="1"/></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><div contenteditable="true">cve 845</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload666" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade666" maxlength="4" size="1"/></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><div contenteditable="true">cve 845</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload777" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade777" maxlength="4" size="1"/></td>
+                                                </tr>
+
+                                                <tr id="ssthe8th">
+                                                    <td><div contenteditable="true">cve 845</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload888" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade888" maxlength="4" size="1"/></td>
+                                                </tr>
+
+                                                <tr id="ssthe9th">
+                                                    <td><div contenteditable="true">cve 845</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload999" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade999" maxlength="4" size="1"/></td>
+                                                </tr>
+
+                                                <tr id="ssthe10th">
+                                                    <td><div contenteditable="true">cve 845</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload1000" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade1000" maxlength="4" size="1"/></td>
+                                                </tr>
+
+                                                <tr id="ssthe11th">
+                                                    <td><div contenteditable="true">cve 845</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload1100" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade1100" maxlength="4" size="1"/></td>
+                                                </tr>
+
+                                                <tr id="ssthe12th">
+                                                    <td><div contenteditable="true">cve 845</div></td>
+                                                    <td><div contenteditable="true">Double Click to Edit</div></td>
+                                                    <td><input type="text" id="unitload1200" maxlength="4" size="1"/></td>
+                                                    <td><input type="text" id="courseGrade1200" maxlength="4" size="1"/></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td colspan="2">
+                                                    <!-- <p >your Gp =</p> -->
+                                                    </td>
+                                                    <td colspan="2" >
+                                                        <h6 class="resultText" id="gpaprint">
+                                                            Your CGPA = <span id="endresult1">5.00</span> 
+                                                        </h6>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tfoot>
+                                                    <td colspan="4" class="copyRight">
+                                                    <h5>GP CALCULATOR BY Achieve © 2021</h5>
+                                                    </td>
+                                                </tfoot>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="col-12">
+                                        <a type="button" class="btn btn-colour btn-lg" onclick="cgpaResult()" id="finalbuttonREMOVER1">Submit</i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+      
 
         </div>
 
