@@ -7,7 +7,7 @@ function cgpaResult(){
   $fsCourses();
   $ssCourses();
 
-  let cgpa = (max1() + max2()) / (max11() + max22());
+  let cgpa = ( (max1() + max2() ) / ( max11() + max22() )  );
 
   //rounding the gpa calculated value to 2 decimal points
   rounded = Math.round((cgpa + Number.EPSILON) * 100) / 100;
