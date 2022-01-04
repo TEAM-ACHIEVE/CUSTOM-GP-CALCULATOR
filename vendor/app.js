@@ -34,6 +34,8 @@ function normalCGPA() {
   document.getElementById("options-section").style.display = "none";
   document.getElementById("normalCGPA-section").style.display = "block";
   document.getElementById("col-sec44").style.display = "block";
+  document.getElementById("firstSemester-section").style.display = "block";
+  document.getElementById("secondSemester-section").style.display = "block";
 }
 
 function $OptionsSelector(selectValue) {
