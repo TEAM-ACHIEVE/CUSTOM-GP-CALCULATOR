@@ -221,7 +221,7 @@ function $fsCourses() {
   }
 
   //8 courses
-  else if (table1($selectedOptions) == 8) {
+  else if (table2($selectedOptions) == 8) {
     let totalUnitload88 =
       unit101() +
       unit22() +
@@ -252,7 +252,7 @@ function $fsCourses() {
   }
 
   //9 courses
-  else if (table1($selectedOptions) == 9) {
+  else if (table2($selectedOptions) == 9) {
     let totalUnitload99 =
       unit101() +
       unit22() +
@@ -280,7 +280,7 @@ function $fsCourses() {
   }
 
   //10 courses
-  else if (table1($selectedOptions) == 10) {
+  else if (table2($selectedOptions) == 10) {
     totalUnitload99 =
       unit101() +
       unit22() +
@@ -310,7 +310,7 @@ function $fsCourses() {
   }
 
   //11 COURSES
-  else if (table1($selectedOptions) == 11) {
+  else if (table2($selectedOptions) == 11) {
     let totalUnitload120 =
       unit101() +
       unit22() +
@@ -344,7 +344,7 @@ function $fsCourses() {
   }
 
   //12 COURSES
-  else if (table1($selectedOptions) == 12) {
+  else if (table2($selectedOptions) == 12) {
     let totalUnitload12 =
       unit101() +
       unit22() +
