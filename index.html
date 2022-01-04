@@ -260,7 +260,9 @@
                     <div class="card">
                         <div class="card-body">
                         <h1>CGPA Result</h1>
+                         <a type="button" class="btn btn-dark btn-lg download-button" onclick="printPage()" id="printer">Download this result <i class="fas fa-download"></i></a>
 
+     
                             <div class="row g-3" id="col-sec44">
                                 <div class="col-12">
                                     <h2>THIS PAGE IS UNDER CONSTRUCTION</h2>
@@ -293,7 +295,7 @@
                                 
                                 <div class="col-12">
                                     <label  class="form-control" for="inlineFormSelectPref1">Select number of courses offered</label>
-                                    <select class="form-select" id="inlineFormSelectPref1" onchange="numberofCousres(this)">
+                                    <select class="form-select" id="inlineFormSelectPref1" onchange="numberofCousres1(this)">
                                         <option selected>Choose...</option>
                                         <option value="7">7</option>
                                         <option value="8">8</option>
@@ -331,7 +333,7 @@
                                 
                                 <div class="col-12">
                                     <label  class="form-control" for="inlineFormSelectPref1">Select number of courses offered</label>
-                                    <select class="form-select" id="inlineFormSelectPref1"  onchange="numberofCousres(this)">
+                                    <select class="form-select" id="inlineFormSelectPref1"  onchange="numberofCousres2(this)">
                                         <option selected>Choose...</option>
                                         <option value="7">7</option>
                                         <option value="8">8</option>
