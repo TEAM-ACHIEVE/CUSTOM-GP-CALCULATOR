@@ -110,6 +110,7 @@ function course1200() {
 // first semester
 
 function ssCourseschanger(selectValue2) {
+  document.getElementById("secondSemester-section").style.padding = "0% 0% 0%";
   tablemover2(selectValue2);
 }
 
