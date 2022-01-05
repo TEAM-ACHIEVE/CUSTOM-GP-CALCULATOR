@@ -67,7 +67,7 @@ let grading1100 = document.getElementById("courseGrade1100");
 let grading1200 = document.getElementById("courseGrade1200");
 
 //funtion for string convertion
-function course111() {
+function course102() {
   return grading102.value;
 }
 function course222() {
@@ -184,8 +184,11 @@ function subsectionRemover2() {
   document.getElementById("col-sec44").style.display = "none";
 }
 
+  let moverunit2;
+  let movergrade2;
 
 function $ssCourses() {
+
   //7 courses
   if (table3($selectedOptions) == 7) {
     totalUnitload7 =
@@ -206,8 +209,8 @@ function $ssCourses() {
       $course(course666()) * unit666() +
       $course(course777()) * unit777();
 
-    max2(totalUnitload7);
-    max22(calfactor);
+    moverunit2 = totalUnitload7;
+    movergrade2 = calfactor;
 
     if (isNaN(totalUnitload7)) {
       console.log("is not a Num");
@@ -215,7 +218,7 @@ function $ssCourses() {
       console.log("A big number");
     }
 
-    console.log(unit33(), unit22(), calfactor, totalUnitload7, course1());
+    console.log(unit33(), unit22(), calfactor, totalUnitload7);
   }
 
   //8 courses
@@ -240,8 +243,8 @@ function $ssCourses() {
       $course(course777()) * unit777() +
       $course(course888()) * unit888();
 
-    max2(totalUnitload888);
-    max22(calfactor111);
+    moverunit2 = totalUnitload888;
+    movergrade2 = calfactor111;
 
     // //rounding the gpa calculated value to 2 decimal points
     // rounded = Math.round((gpa + Number.EPSILON) * 100) / 100;
@@ -273,8 +276,8 @@ function $ssCourses() {
       $course(course888()) * unit888() +
       $course(course999()) * unit999();
 
-    max2(totalUnitload999);
-    max22(calfactor222);
+    moverunit2 = totalUnitload999;
+    movergrade2 = calfactor222;
   }
 
   //10 courses
@@ -291,7 +294,7 @@ function $ssCourses() {
       unit999() +
       unit1000();
 
-    calfactor22 =
+    calfactor222 =
       $course(course102()) * unit102() +
       $course(course222()) * unit222() +
       $course(course333()) * unit333() +
@@ -303,8 +306,8 @@ function $ssCourses() {
       $course(course999()) * unit999() +
       $course(course1000()) * unit1000();
 
-    max2(totalUnitload999);
-    max22(calfactor22);
+    moverunit2 = totalUnitload999;
+    movergrade2 = calfactor222;
   }
 
   //11 COURSES
@@ -336,9 +339,8 @@ function $ssCourses() {
       $course(course1000()) * unit1000() +
       $course(course1100()) * unit1100(); //+
     //$course(course12()) * unit12();
-
-    max2(totalUnitload1200);
-    max22(calfactor500);
+    moverunit2 = totalUnitload1200;
+    movergrade2 = calfactor500;
   }
 
   //12 COURSES
@@ -358,20 +360,20 @@ function $ssCourses() {
       unit1200();
 
     let calfactor500 =
-      $course(course101()) * unit101() +
-      $course(course22()) * unit22() +
-      $course(course33()) * unit33() +
-      $course(course44()) * unit44() +
-      $course(course55()) * unit55() +
-      $course(course66()) * unit66() +
-      $course(course77()) * unit77() +
-      $course(course88()) * unit88() +
-      $course(course99()) * unit99() +
-      $course(course100()) * unit100() +
-      $course(course110()) * unit110() +
+      $course(course102()) * unit102() +
+      $course(course222()) * unit222() +
+      $course(course333()) * unit333() +
+      $course(course444()) * unit444() +
+      $course(course555()) * unit555() +
+      $course(course666()) * unit666() +
+      $course(course777()) * unit777() +
+      $course(course888()) * unit888() +
+      $course(course999()) * unit999() +
+      $course(course1000()) * unit1000() +
+      $course(course1100()) * unit1100() +
       $course(course1200()) * unit1200();
 
-    max2(totalUnitload1200);
-    max22(calfactor500);
+    moverunit2 = totalUnitload1200;
+    movergrade2 = calfactor500;
   }
 }

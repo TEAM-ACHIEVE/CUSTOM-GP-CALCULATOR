@@ -185,9 +185,13 @@ function subsectionRemover1() {
   document.getElementById("col-sec33").style.display = "none";
   document.getElementById("col-sec44").style.display = "none";
 }
-
+  
+  
+let moverunit1;
+let movergrade1;
 
 function $fsCourses() {
+  
   //7 courses
   if (table2($selectedOptions) == 7) {
     totalUnitload7 =
@@ -208,8 +212,8 @@ function $fsCourses() {
       $course(course66()) * unit66() +
       $course(course77()) * unit77();
 
-    max1(totalUnitload7);
-    max11(calfactor);
+    moverunit1 = totalUnitload7;
+    movergrade1 = calfactor;
 
     if (isNaN(totalUnitload7)) {
       console.log("is not a Num");
@@ -217,7 +221,7 @@ function $fsCourses() {
       console.log("A big number");
     }
 
-    console.log(unit33(), unit22(), calfactor, totalUnitload7, course1());
+    console.log(unit33(), unit22(), calfactor, totalUnitload7);
   }
 
   //8 courses
@@ -242,8 +246,8 @@ function $fsCourses() {
       $course(course77()) * unit77() +
       $course(course88()) * unit88();
 
-    max1(totalUnitload88);
-    max11(calfactor11);
+     moverunit1 = totalUnitload88;
+     movergrade1 = calfactor11;
 
     // //rounding the gpa calculated value to 2 decimal points
     // rounded = Math.round((gpa + Number.EPSILON) * 100) / 100;
@@ -275,8 +279,9 @@ function $fsCourses() {
       $course(course88()) * unit88() +
       $course(course99()) * unit99();
 
-    max1(totalUnitload99);
-    max11(calfactor22);
+      moverunit1 = totalUnitload99;
+      movergrade1 = calfactor22;
+
   }
 
   //10 courses
@@ -305,8 +310,8 @@ function $fsCourses() {
       $course(course99()) * unit99() +
       $course(course100()) * unit100();
 
-    max1(totalUnitload99);
-    max11(calfactor22);
+    moverunit1 = totalUnitload99;
+    movergrade1 = calfactor22;
   }
 
   //11 COURSES
@@ -339,13 +344,13 @@ function $fsCourses() {
       $course(course110()) * unit110(); //+
     //$course(course12()) * unit12();
 
-    max1(totalUnitload120);
-    max11(calfactor50);
+    moverunit1 = totalUnitload120;
+    movergrade1 = calfactor50;
   }
 
   //12 COURSES
   else if (table2($selectedOptions) == 12) {
-    let totalUnitload12 =
+    let totalUnitload120 =
       unit101() +
       unit22() +
       unit33() +
@@ -359,7 +364,7 @@ function $fsCourses() {
       unit110() +
       unit120();
 
-    let calfactor5 =
+    let calfactor50 =
       $course(course101()) * unit101() +
       $course(course22()) * unit22() +
       $course(course33()) * unit33() +
@@ -373,7 +378,7 @@ function $fsCourses() {
       $course(course110()) * unit110() +
       $course(course120()) * unit120();
 
-    max1(totalUnitload120);
-    max11(calfactor50);
+    moverunit1 = totalUnitload120;
+    movergrade1 = calfactor50;
   }
 }

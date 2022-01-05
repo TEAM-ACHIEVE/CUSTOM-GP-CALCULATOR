@@ -1,5 +1,6 @@
 function displayController() {
   document.getElementById("namechanger").style.display = "inline-block";
+  document.getElementById("namechanger1").style.display = "inline-block";
   document.getElementById("topBar").style.display = "none";
 
   subsectionRemover();
@@ -14,6 +15,7 @@ function displayController() {
 //enabing auto printing  by default
 function printPage() {
   document.getElementById("printer").style.display = "none";
+  document.getElementById("printer1").style.display = "none";
   window.print();
 }
 

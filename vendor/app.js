@@ -34,6 +34,7 @@ function normalCGPA() {
   document.getElementById("options-section").style.display = "none";
   document.getElementById("normalCGPA-section").style.display = "block";
   document.getElementById("col-sec44").style.display = "block";
+  // document.getElementById("col-sec44").style.display = "none";
   document.getElementById("firstSemester-section").style.display = "block";
   document.getElementById("secondSemester-section").style.display = "block";
 }
@@ -68,6 +69,11 @@ function $firstName1() {
 function $lastName1() {
   return $lastName.value;
 }
+
+// REPLACING THE NAMES
+let $firstNameMover1 = document.getElementById("firstNameMover1");
+let $lastNamemover1 = document.getElementById("lastNamemover1");
+
 //all courses 
 let $unitload1 = document.getElementById("unitload1");
 let $unitload2 = document.getElementById("unitload2");
@@ -176,6 +182,7 @@ function course12() {
 
 //gp result displayer
 const $gpa = document.getElementById("gpaprint");
+const $cgpa = document.getElementById("gpaprinter");
 
 // REPLACING THE NAMES
 let $firstNameMover = document.getElementById("firstNameMover");
