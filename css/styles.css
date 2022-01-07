@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5{
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
     #title{
         text-align: center;
     }
