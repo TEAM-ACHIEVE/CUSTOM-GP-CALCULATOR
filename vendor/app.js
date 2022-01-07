@@ -2,6 +2,30 @@
 let $firstName = document.getElementById("firstName");
 let $lastName = document.getElementById("lastName");
 
+// name handler for cgpa
+function theNamerchanger1() {
+  $firstNameMover1.textContent = $firstName1();
+  $lastNamemover1.textContent = $lastName1();
+}
+
+// handler for first semester grades and calculations
+let moverunit1;
+let movergrade1;
+
+// for second semester
+let moverunit2;
+let movergrade2;
+
+
+//replacing totals
+
+//fs
+let $fsunitcalc = document.getElementById("fsunitcalc");
+let $fsgradecalc = document.getElementById("fsgradecalc");
+
+//ss
+let $ssunitcalc = document.getElementById("ssunitcalc");
+let $ssgradecalc = document.getElementById("ssgradecalc");
 
 // option section
 // const $activeProcess = document.getElementById("activeProcess");
@@ -33,10 +57,11 @@ function normalGPA() {
 function normalCGPA() {
   document.getElementById("options-section").style.display = "none";
   document.getElementById("normalCGPA-section").style.display = "block";
+  document.getElementById("col-sec33").style.display = "block";
   document.getElementById("col-sec44").style.display = "block";
   // document.getElementById("col-sec44").style.display = "none";
   document.getElementById("firstSemester-section").style.display = "block";
-  document.getElementById("secondSemester-section").style.display = "block";
+  //document.getElementById("secondSemester-section").style.display = "block";
 }
 
 function $OptionsSelector(selectValue) {

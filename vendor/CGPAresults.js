@@ -1,25 +1,34 @@
-function theNamerchanger1() {
-  $firstNameMover1.textContent = $firstName1();
-  $lastNamemover1.textContent = $lastName1();
-}
 //final result structuring
 
 function cgpaResult() {
   theNamerchanger1();
   displayController();
 
-  $fsCourses();
-  $ssCourses();
-  let cgpa;
+ // $fsCourses();
+ //$ssCourses();
+
+ totalassigner();
+ let cgpa;
 
   // cgpa = ( (18 + 21 ) / ( 56 + 87 )  );
   cgpa = (movergrade1 + movergrade2) / (moverunit1 + moverunit2);
+  console.log(cgpa);
   //rounding the gpa calculated value to 2 decimal points
   rounded = Math.round((cgpa + Number.EPSILON) * 100) / 100;
 
   $cgpa.textContent = "your cgpa is = " + rounded;
 }
 
+function  totalassigner(params) {
+  
+  //fs
+ $fsunitcalc.textContent= moverunit1;
+ $fsgradecalc.textContent= movergrade1;
+
+  //ss
+  $ssunitcalc.textContent= moverunit2;
+  $ssgradecalc.textContent= movergrade2;
+}
 // function max1(unitcalc1) {
 //   let calchelper1 = unitcalc1.value;
 //   return calchelper1;
