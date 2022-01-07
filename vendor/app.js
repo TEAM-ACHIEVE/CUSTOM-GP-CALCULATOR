@@ -16,6 +16,12 @@ let movergrade1;
 let moverunit2;
 let movergrade2;
 
+let rounded;
+let gpa;
+let cgpa;
+let cgpa1;
+let calfactor;
+let totalUnitload7;
 
 //replacing totals
 
@@ -24,8 +30,8 @@ let $fsunitcalc = document.getElementById("fsunitcalc");
 let $fsgradecalc = document.getElementById("fsgradecalc");
 
 //ss
-let $ssunitcalc = document.getElementById("ssunitcalc");
-let $ssgradecalc = document.getElementById("ssgradecalc");
+// let $ssunitcalc = document.getElementById("ssunitcalc");
+// let $ssgradecalc = document.getElementById("ssgradecalc");
 
 // option section
 // const $activeProcess = document.getElementById("activeProcess");
@@ -57,11 +63,11 @@ function normalGPA() {
 function normalCGPA() {
   document.getElementById("options-section").style.display = "none";
   document.getElementById("normalCGPA-section").style.display = "block";
-  document.getElementById("col-sec33").style.display = "block";
+ // document.getElementById("col-sec33").style.display = "block";
   document.getElementById("col-sec44").style.display = "block";
   // document.getElementById("col-sec44").style.display = "none";
   document.getElementById("firstSemester-section").style.display = "block";
-  //document.getElementById("secondSemester-section").style.display = "block";
+  document.getElementById("secondSemester-section").style.display = "block";
 }
 
 function $OptionsSelector(selectValue) {

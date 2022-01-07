@@ -77,7 +77,7 @@ function sevenCourses() {
 
 function subsectionRemover(){
   document.getElementById("col-sec").style.display = "none";
-  document.getElementById("col-sec22").style.display = "none";
+  //document.getElementById("col-sec22").style.display = "none";
   document.getElementById("col-sec33").style.display = "none";
   document.getElementById("col-sec44").style.display = "none";
 }

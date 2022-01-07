@@ -134,7 +134,7 @@ function tablemover1(selectValue1) {
       document.getElementById("fsthe12th").style.display = "none";
 
       fsCourses();
-      fs7();
+      //fs7();
       break;
 
     case 8:
@@ -143,7 +143,7 @@ function tablemover1(selectValue1) {
       document.getElementById("fsthe11th").style.display = "none";
       document.getElementById("fsthe12th").style.display = "none";
       fsCourses();
-      fs8();
+      //fs8();
 
       break;
 
@@ -152,7 +152,7 @@ function tablemover1(selectValue1) {
       document.getElementById("fsthe11th").style.display = "none";
       document.getElementById("fsthe12th").style.display = "none";
       fsCourses();
-      fs9();
+      //fs9();
 
       break;
 
@@ -160,20 +160,20 @@ function tablemover1(selectValue1) {
       document.getElementById("fsthe11th").style.display = "none";
       document.getElementById("fsthe12th").style.display = "none";
       fsCourses();
-      fs10();
+      //fs10();
 
       break;
 
     case 11:
       document.getElementById("fsthe12th").style.display = "none";
       fsCourses();
-      fs11();
+      //fs11();
 
       break;
 
     case 12:
       fsCourses();
-      fs12();
+      //fs12();
       break;
 
     default:
@@ -190,366 +190,365 @@ function fsCourses() {
 }
 
 function subsectionRemover1() {
-  document.getElementById("col-sec").style.display = "none";
+  document.getElementById("col-sec22").style.display = "none";
   document.getElementById("col-sec33").style.display = "none";
   document.getElementById("col-sec44").style.display = "none";
 }
   
 //courses and calculations
 
-function fs7(){
-  totalUnitload7 =
-    unit101() + unit22() + unit33() + unit44() + unit55() + unit66() + unit77();
+// function fs7(){
+//   totalUnitload7 =
+//     unit101() + unit22() + unit33() + unit44() + unit55() + unit66() + unit77();
 
-  calfactor =
-    $course(course101()) * unit101() +
-    $course(course22()) * unit22() +
-    $course(course33()) * unit33() +
-    $course(course44()) * unit44() +
-    $course(course55()) * unit55() +
-    $course(course66()) * unit66() +
-    $course(course77()) * unit77();
+//   calfactor =
+//     $course(course101()) * unit101() +
+//     $course(course22()) * unit22() +
+//     $course(course33()) * unit33() +
+//     $course(course44()) * unit44() +
+//     $course(course55()) * unit55() +
+//     $course(course66()) * unit66() +
+//     $course(course77()) * unit77();
 
-  moverunit1 = totalUnitload7;
-  movergrade1 = calfactor;
-}
+//   moverunit1 = totalUnitload7;
+//   movergrade1 = calfactor;
+// }
 
-function fs8() {
-   totalUnitload7 =
-    unit101() +
-    unit22() +
-    unit33() +
-    unit44() +
-    unit55() +
-    unit66() +
-    unit77() +
-    unit88();
+// function fs8() {
+//    totalUnitload7 =
+//     unit101() +
+//     unit22() +
+//     unit33() +
+//     unit44() +
+//     unit55() +
+//     unit66() +
+//     unit77() +
+//     unit88();
 
-   calfactor =
-    $course(course101()) * unit101() +
-    $course(course22()) * unit22() +
-    $course(course33()) * unit33() +
-    $course(course44()) * unit44() +
-    $course(course55()) * unit55() +
-    $course(course66()) * unit66() +
-    $course(course77()) * unit77() +
-    $course(course88()) * unit88();
+//    calfactor =
+//     $course(course101()) * unit101() +
+//     $course(course22()) * unit22() +
+//     $course(course33()) * unit33() +
+//     $course(course44()) * unit44() +
+//     $course(course55()) * unit55() +
+//     $course(course66()) * unit66() +
+//     $course(course77()) * unit77() +
+//     $course(course88()) * unit88();
 
-  moverunit1 = totalUnitload7;
-  movergrade1 = calfactor;
-}
-
-
-function fs9(params) {
-  totalUnitload7 =
-    unit101() +
-    unit22() +
-    unit33() +
-    unit44() +
-    unit55() +
-    unit66() +
-    unit77() +
-    unit88() +
-    unit99();
-
-  calfactor =
-    $course(course101()) * unit101() +
-    $course(course22()) * unit22() +
-    $course(course33()) * unit33() +
-    $course(course44()) * unit44() +
-    $course(course55()) * unit55() +
-    $course(course66()) * unit66() +
-    $course(course77()) * unit77() +
-    $course(course88()) * unit88() +
-    $course(course99()) * unit99();
-
-  moverunit1 = totalUnitload7;
-  movergrade1 = calfactor;
-}
+//   moverunit1 = totalUnitload7;
+//   movergrade1 = calfactor;
+// }
 
 
-function fs10(params) {
-   totalUnitload7 =
-     unit101() +
-     unit22() +
-     unit33() +
-     unit44() +
-     unit55() +
-     unit66() +
-     unit77() +
-     unit88() +
-     unit99() +
-     unit100();
+// function fs9(params) {
+//   totalUnitload7 =
+//     unit101() +
+//     unit22() +
+//     unit33() +
+//     unit44() +
+//     unit55() +
+//     unit66() +
+//     unit77() +
+//     unit88() +
+//     unit99();
 
-   calfactor =
-     $course(course101()) * unit101() +
-     $course(course22()) * unit22() +
-     $course(course33()) * unit33() +
-     $course(course44()) * unit44() +
-     $course(course55()) * unit55() +
-     $course(course66()) * unit66() +
-     $course(course77()) * unit77() +
-     $course(course88()) * unit88() +
-     $course(course99()) * unit99() +
-     $course(course100()) * unit100();
+//   calfactor =
+//     $course(course101()) * unit101() +
+//     $course(course22()) * unit22() +
+//     $course(course33()) * unit33() +
+//     $course(course44()) * unit44() +
+//     $course(course55()) * unit55() +
+//     $course(course66()) * unit66() +
+//     $course(course77()) * unit77() +
+//     $course(course88()) * unit88() +
+//     $course(course99()) * unit99();
 
-  moverunit1 = totalUnitload7;
-  movergrade1 = calfactor;
-}
+//   moverunit1 = totalUnitload7;
+//   movergrade1 = calfactor;
+// }
 
-function fs11(params) {
-   totalUnitload7 =
-    unit101() +
-    unit22() +
-    unit33() +
-    unit44() +
-    unit55() +
-    unit66() +
-    unit77() +
-    unit88() +
-    unit99() +
-    unit100() +
-    unit110(); 
 
-   calfactor=
-    $course(course101()) * unit101() +
-    $course(course22()) * unit22() +
-    $course(course33()) * unit33() +
-    $course(course44()) * unit44() +
-    $course(course55()) * unit55() +
-    $course(course66()) * unit66() +
-    $course(course77()) * unit77() +
-    $course(course88()) * unit88() +
-    $course(course99()) * unit99() +
-    $course(course100()) * unit100() +
-    $course(course110()) * unit110();
+// function fs10(params) {
+//    totalUnitload7 =
+//      unit101() +
+//      unit22() +
+//      unit33() +
+//      unit44() +
+//      unit55() +
+//      unit66() +
+//      unit77() +
+//      unit88() +
+//      unit99() +
+//      unit100();
 
-  moverunit1 = totalUnitload7;
-  movergrade1 = calfactor;
-}
+//    calfactor =
+//      $course(course101()) * unit101() +
+//      $course(course22()) * unit22() +
+//      $course(course33()) * unit33() +
+//      $course(course44()) * unit44() +
+//      $course(course55()) * unit55() +
+//      $course(course66()) * unit66() +
+//      $course(course77()) * unit77() +
+//      $course(course88()) * unit88() +
+//      $course(course99()) * unit99() +
+//      $course(course100()) * unit100();
 
-function fs12(params) {
-   totalUnitload7 =
-    unit101() +
-    unit22() +
-    unit33() +
-    unit44() +
-    unit55() +
-    unit66() +
-    unit77() +
-    unit88() +
-    unit99() +
-    unit100() +
-    unit110() +
-    unit120();
+//   moverunit1 = totalUnitload7;
+//   movergrade1 = calfactor;
+// }
 
-   calfactor =
-    $course(course101()) * unit101() +
-    $course(course22()) * unit22() +
-    $course(course33()) * unit33() +
-    $course(course44()) * unit44() +
-    $course(course55()) * unit55() +
-    $course(course66()) * unit66() +
-    $course(course77()) * unit77() +
-    $course(course88()) * unit88() +
-    $course(course99()) * unit99() +
-    $course(course100()) * unit100() +
-    $course(course110()) * unit110() +
-    $course(course120()) * unit120();
+// function fs11(params) {
+//    totalUnitload7 =
+//     unit101() +
+//     unit22() +
+//     unit33() +
+//     unit44() +
+//     unit55() +
+//     unit66() +
+//     unit77() +
+//     unit88() +
+//     unit99() +
+//     unit100() +
+//     unit110(); 
 
-    moverunit1 = totalUnitload7;
-    movergrade1 = calfactor;
-}
+//    calfactor=
+//     $course(course101()) * unit101() +
+//     $course(course22()) * unit22() +
+//     $course(course33()) * unit33() +
+//     $course(course44()) * unit44() +
+//     $course(course55()) * unit55() +
+//     $course(course66()) * unit66() +
+//     $course(course77()) * unit77() +
+//     $course(course88()) * unit88() +
+//     $course(course99()) * unit99() +
+//     $course(course100()) * unit100() +
+//     $course(course110()) * unit110();
 
-// function $fsCourses() {
-  
-//   //7 courses
-//   if (table2($selectedOptions) == 7) {
-//     totalUnitload7 =
-//       unit101() +
-//       unit22() +
-//       unit33() +
-//       unit44() +
-//       unit55() +
-//       unit66() +
-//       unit77();
+//   moverunit1 = totalUnitload7;
+//   movergrade1 = calfactor;
+// }
 
-//     calfactor =
-//       $course(course101()) * unit101() +
-//       $course(course22()) * unit22() +
-//       $course(course33()) * unit33() +
-//       $course(course44()) * unit44() +
-//       $course(course55()) * unit55() +
-//       $course(course66()) * unit66() +
-//       $course(course77()) * unit77();
+// function fs12(params) {
+//    totalUnitload7 =
+//     unit101() +
+//     unit22() +
+//     unit33() +
+//     unit44() +
+//     unit55() +
+//     unit66() +
+//     unit77() +
+//     unit88() +
+//     unit99() +
+//     unit100() +
+//     unit110() +
+//     unit120();
+
+//    calfactor =
+//     $course(course101()) * unit101() +
+//     $course(course22()) * unit22() +
+//     $course(course33()) * unit33() +
+//     $course(course44()) * unit44() +
+//     $course(course55()) * unit55() +
+//     $course(course66()) * unit66() +
+//     $course(course77()) * unit77() +
+//     $course(course88()) * unit88() +
+//     $course(course99()) * unit99() +
+//     $course(course100()) * unit100() +
+//     $course(course110()) * unit110() +
+//     $course(course120()) * unit120();
 
 //     moverunit1 = totalUnitload7;
 //     movergrade1 = calfactor;
-
-//     if (isNaN(totalUnitload7)) {
-//       console.log("is not a Num");
-//     } else {
-//       console.log("A big number");
-//     }
-
-//     console.log(unit33(), unit22(), calfactor, totalUnitload7);
-//   }
-
-//   //8 courses
-//   else if (table2($selectedOptions) == 8) {
-//     let totalUnitload88 =
-//       unit101() +
-//       unit22() +
-//       unit33() +
-//       unit44() +
-//       unit55() +
-//       unit66() +
-//       unit77() +
-//       unit88();
-
-//     let calfactor11 =
-//       $course(course101()) * unit101() +
-//       $course(course22()) * unit22() +
-//       $course(course33()) * unit33() +
-//       $course(course44()) * unit44() +
-//       $course(course55()) * unit55() +
-//       $course(course66()) * unit66() +
-//       $course(course77()) * unit77() +
-//       $course(course88()) * unit88();
-
-//      moverunit1 = totalUnitload88;
-//      movergrade1 = calfactor11;
-
-//     // //rounding the gpa calculated value to 2 decimal points
-//     // rounded = Math.round((gpa + Number.EPSILON) * 100) / 100;
-
-//     // $gpa.textContent = "your gp is = " + rounded;
-//   }
-
-//   //9 courses
-//   else if (table2($selectedOptions) == 9) {
-//     let totalUnitload99 =
-//       unit101() +
-//       unit22() +
-//       unit33() +
-//       unit44() +
-//       unit55() +
-//       unit66() +
-//       unit77() +
-//       unit88() +
-//       unit99();
-
-//     let calfactor22 =
-//       $course(course101()) * unit101() +
-//       $course(course22()) * unit22() +
-//       $course(course33()) * unit33() +
-//       $course(course44()) * unit44() +
-//       $course(course55()) * unit55() +
-//       $course(course66()) * unit66() +
-//       $course(course77()) * unit77() +
-//       $course(course88()) * unit88() +
-//       $course(course99()) * unit99();
-
-//       moverunit1 = totalUnitload99;
-//       movergrade1 = calfactor22;
-
-//   }
-
-//   //10 courses
-//   else if (table2($selectedOptions) == 10) {
-//     totalUnitload99 =
-//       unit101() +
-//       unit22() +
-//       unit33() +
-//       unit44() +
-//       unit55() +
-//       unit66() +
-//       unit77() +
-//       unit88() +
-//       unit99() +
-//       unit100();
-
-//     calfactor22 =
-//       $course(course101()) * unit101() +
-//       $course(course22()) * unit22() +
-//       $course(course33()) * unit33() +
-//       $course(course44()) * unit44() +
-//       $course(course55()) * unit55() +
-//       $course(course66()) * unit66() +
-//       $course(course77()) * unit77() +
-//       $course(course88()) * unit88() +
-//       $course(course99()) * unit99() +
-//       $course(course100()) * unit100();
-
-//     moverunit1 = totalUnitload99;
-//     movergrade1 = calfactor22;
-//   }
-
-//   //11 COURSES
-//   else if (table2($selectedOptions) == 11) {
-//     let totalUnitload120 =
-//       unit101() +
-//       unit22() +
-//       unit33() +
-//       unit44() +
-//       unit55() +
-//       unit66() +
-//       unit77() +
-//       unit88() +
-//       unit99() +
-//       unit100() +
-//       unit110(); //+
-//     //unit12();
-
-//     let calfactor50 =
-//       $course(course101()) * unit101() +
-//       $course(course22()) * unit22() +
-//       $course(course33()) * unit33() +
-//       $course(course44()) * unit44() +
-//       $course(course55()) * unit55() +
-//       $course(course66()) * unit66() +
-//       $course(course77()) * unit77() +
-//       $course(course88()) * unit88() +
-//       $course(course99()) * unit99() +
-//       $course(course100()) * unit100() +
-//       $course(course110()) * unit110(); //+
-//     //$course(course12()) * unit12();
-
-//     moverunit1 = totalUnitload120;
-//     movergrade1 = calfactor50;
-//   }
-
-//   //12 COURSES
-//   else if (table2($selectedOptions) == 12) {
-//     let totalUnitload120 =
-//       unit101() +
-//       unit22() +
-//       unit33() +
-//       unit44() +
-//       unit55() +
-//       unit66() +
-//       unit77() +
-//       unit88() +
-//       unit99() +
-//       unit100() +
-//       unit110() +
-//       unit120();
-
-//     let calfactor50 =
-//       $course(course101()) * unit101() +
-//       $course(course22()) * unit22() +
-//       $course(course33()) * unit33() +
-//       $course(course44()) * unit44() +
-//       $course(course55()) * unit55() +
-//       $course(course66()) * unit66() +
-//       $course(course77()) * unit77() +
-//       $course(course88()) * unit88() +
-//       $course(course99()) * unit99() +
-//       $course(course100()) * unit100() +
-//       $course(course110()) * unit110() +
-//       $course(course120()) * unit120();
-
-//     moverunit1 = totalUnitload120;
-//     movergrade1 = calfactor50;
-//   }
 // }
+
+function $fsCourses() {
+  
+  //7 courses
+  if (table2($selectedOptions) == 7) {
+    totalUnitload7 =
+      unit101() +
+      unit22() +
+      unit33() +
+      unit44() +
+      unit55() +
+      unit66() +
+      unit77();
+
+    calfactor =
+      $course(course101()) * unit101() +
+      $course(course22()) * unit22() +
+      $course(course33()) * unit33() +
+      $course(course44()) * unit44() +
+      $course(course55()) * unit55() +
+      $course(course66()) * unit66() +
+      $course(course77()) * unit77();
+
+    cgpa = calfactor / totalUnitload7;
+
+    //rounding the gpa calculated value to 2 decimal points
+    // rounded = Math.round((cgpa + Number.EPSILON) * 100) / 100;
+
+    // $gpa.textContent = "your gp is = " + rounded;
+
+    if (isNaN(totalUnitload7)) {
+      console.log("is not a Num");
+    } else {
+      console.log("A big number");
+    }
+
+    console.log(unit33(), unit22(), calfactor, totalUnitload7);
+  }
+
+  //8 courses
+  else if (table2($selectedOptions) == 8) {
+    let totalUnitload88 =
+      unit101() +
+      unit22() +
+      unit33() +
+      unit44() +
+      unit55() +
+      unit66() +
+      unit77() +
+      unit88();
+
+    let calfactor11 =
+      $course(course101()) * unit101() +
+      $course(course22()) * unit22() +
+      $course(course33()) * unit33() +
+      $course(course44()) * unit44() +
+      $course(course55()) * unit55() +
+      $course(course66()) * unit66() +
+      $course(course77()) * unit77() +
+      $course(course88()) * unit88();
+
+     cgpa = calfactor11 / totalUnitload88;
+
+    // //rounding the gpa calculated value to 2 decimal points
+    // rounded = Math.round((gpa + Number.EPSILON) * 100) / 100;
+
+    // $gpa.textContent = "your gp is = " + rounded;
+  }
+
+  //9 courses
+  else if (table2($selectedOptions) == 9) {
+    let totalUnitload99 =
+      unit101() +
+      unit22() +
+      unit33() +
+      unit44() +
+      unit55() +
+      unit66() +
+      unit77() +
+      unit88() +
+      unit99();
+
+    let calfactor22 =
+      $course(course101()) * unit101() +
+      $course(course22()) * unit22() +
+      $course(course33()) * unit33() +
+      $course(course44()) * unit44() +
+      $course(course55()) * unit55() +
+      $course(course66()) * unit66() +
+      $course(course77()) * unit77() +
+      $course(course88()) * unit88() +
+      $course(course99()) * unit99();
+
+     cgpa = calfactor22 / totalUnitload99;
+
+  }
+
+  //10 courses
+  else if (table2($selectedOptions) == 10) {
+    totalUnitload99 =
+      unit101() +
+      unit22() +
+      unit33() +
+      unit44() +
+      unit55() +
+      unit66() +
+      unit77() +
+      unit88() +
+      unit99() +
+      unit100();
+
+    calfactor22 =
+      $course(course101()) * unit101() +
+      $course(course22()) * unit22() +
+      $course(course33()) * unit33() +
+      $course(course44()) * unit44() +
+      $course(course55()) * unit55() +
+      $course(course66()) * unit66() +
+      $course(course77()) * unit77() +
+      $course(course88()) * unit88() +
+      $course(course99()) * unit99() +
+      $course(course100()) * unit100();
+
+    cgpa = calfactor22 / totalUnitload99;
+  }
+
+  //11 COURSES
+  else if (table2($selectedOptions) == 11) {
+    let totalUnitload120 =
+      unit101() +
+      unit22() +
+      unit33() +
+      unit44() +
+      unit55() +
+      unit66() +
+      unit77() +
+      unit88() +
+      unit99() +
+      unit100() +
+      unit110(); //+
+    //unit12();
+
+    let calfactor50 =
+      $course(course101()) * unit101() +
+      $course(course22()) * unit22() +
+      $course(course33()) * unit33() +
+      $course(course44()) * unit44() +
+      $course(course55()) * unit55() +
+      $course(course66()) * unit66() +
+      $course(course77()) * unit77() +
+      $course(course88()) * unit88() +
+      $course(course99()) * unit99() +
+      $course(course100()) * unit100() +
+      $course(course110()) * unit110(); //+
+    //$course(course12()) * unit12();
+
+    cgpa = calfactor50 / totalUnitload120;
+  }
+
+  //12 COURSES
+  else if (table2($selectedOptions) == 12) {
+    let totalUnitload120 =
+      unit101() +
+      unit22() +
+      unit33() +
+      unit44() +
+      unit55() +
+      unit66() +
+      unit77() +
+      unit88() +
+      unit99() +
+      unit100() +
+      unit110() +
+      unit120();
+
+    let calfactor50 =
+      $course(course101()) * unit101() +
+      $course(course22()) * unit22() +
+      $course(course33()) * unit33() +
+      $course(course44()) * unit44() +
+      $course(course55()) * unit55() +
+      $course(course66()) * unit66() +
+      $course(course77()) * unit77() +
+      $course(course88()) * unit88() +
+      $course(course99()) * unit99() +
+      $course(course100()) * unit100() +
+      $course(course110()) * unit110() +
+      $course(course120()) * unit120();
+
+   cgpa = calfactor50 / totalUnitload120;
+  }
+}

@@ -23,12 +23,11 @@ function printPage() {
 function instructionBOXremover() {
   document.getElementById("insturctionbox1").style.display = "none";
   document.getElementById("insturctionbox2").style.display = "none";
-  document.getElementById("insturctionbox3").style.display = "none";
+ // document.getElementById("insturctionbox3").style.display = "none";
 
 
   // removing the button
   document.getElementById("finalbuttonREMOVER1").style.display = "none";
-  document.getElementById("finalbuttonREMOVER2").style.display = "none";
 }
 
 function theNamerchanger(){
@@ -38,10 +37,6 @@ function theNamerchanger(){
 //final result structuring
 
 function $sevenCourses() {
-  let rounded;
-  let gpa;
-  let calfactor;
-  let totalUnitload7;
 
   theNamerchanger();
   displayController();
