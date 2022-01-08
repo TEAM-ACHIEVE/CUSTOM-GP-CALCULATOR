@@ -160,27 +160,21 @@ h1, h2, h3, h4, h5{
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 990px){
     #title{
         text-align: center;
     }
 
-    .result-tables{
-        padding: 0%;
-    }
-
     .title-image {
     margin:20px auto;
-    width: 50%;
+    width: 35%;
     text-align: center;
     align-content: center;
     /* right: 30%; */
     }
 
-    .showcase-image{
-    margin:20px auto;
-    width: 50%;
-    padding: 0%;   
+    #topBar{
+        text-align: center;
     }
 }
 @media (max-width: 700px){

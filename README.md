@@ -184,4 +184,4 @@ Project Link: [https://github.com/TEAM-ACHIEVE/CUSTOM-GP-CALCULATOR](https://git
 [license-url]: https://github.com/TEAM-ACHIEVE/CUSTOM-GP-CALCULATOR/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/achieve-digital-agency
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot1.png
